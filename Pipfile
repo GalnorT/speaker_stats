@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pandas = "==2.3.3"
+scrapy = "==2.13.4"
 
 [dev-packages]
 
