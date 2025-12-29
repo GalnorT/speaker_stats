@@ -2,10 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Speaker Stats</title>
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/components.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h1>Speaker Stats</h1>
+      
+      <div class="grid-container">
+        <div class="grid-item" id="debater-selector">
+          <h2>Select Debater</h2>
+        </div>
+        
+        <div class="grid-item" id="speaker-points-chart">
+          <h2>Speaker Points Over Time</h2>
+        </div>
+        
+        <div class="grid-item">
+          <div id="motion-stats">
+            <h2>Motion Categories</h2>
+          </div>
+          
+          <div id="position-stats" style="margin-top: var(--spacing-2xl);">
+            <h2>Position Performance</h2>
+          </div>
+        </div>
+        
+        <div class="grid-item" id="debates-table-container">
+          <h2>Past Debates</h2>
+        </div>
+      </div>
+    </div>
+    
     <script type="module" src="main.js"></script>
   </body>
 </html>

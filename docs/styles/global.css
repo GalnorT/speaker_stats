@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-bg-secondary);
+  line-height: 1.6;
+  padding: var(--spacing-xl);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--font-size-3xl);
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-lg);
+}
+
+h3 {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+}
+
+/* App Container */
+#app {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Grid Layout - 2x2 */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-2xl);
+}
+
+/* Grid Items (Card Style) */
+.grid-item {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+.grid-item:hover {
+  box-shadow: var(--shadow-md);
+  transition: box-shadow var(--transition-base);
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-success {
+  color: var(--color-success);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.mt-md {
+  margin-top: var(--spacing-md);
+}
+
+.mb-md {
+  margin-bottom: var(--spacing-md);
+}

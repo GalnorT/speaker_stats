@@ -1,0 +1,199 @@
+/* ========== Debater Selector ========== */
+#debater-selector {
+  position: relative;
+}
+
+.selector-input {
+  width: 100%;
+  padding: var(--spacing-md);
+  font-size: var(--font-size-base);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius);
+  font-family: var(--font-family);
+  transition: border-color var(--transition-fast);
+}
+
+.selector-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.selector-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: var(--spacing-xs);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+}
+
+.selector-dropdown.active {
+  display: block;
+}
+
+.selector-option {
+  padding: var(--spacing-md);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.selector-option:hover {
+  background-color: var(--color-bg-hover);
+}
+
+/* ========== Win Rate Chart ========== */
+#win-rate-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-canvas {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.win-rate-details {
+  margin-top: var(--spacing-lg);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+/* ========== Speaker Points Chart ========== */
+#speaker-points-chart canvas {
+  max-height: 400px;
+}
+
+/* ========== Motion Stats ========== */
+#motion-stats .stats-section {
+  margin-bottom: var(--spacing-lg);
+}
+
+#motion-stats .stats-section:last-child {
+  margin-bottom: 0;
+}
+
+.stats-list {
+  list-style: none;
+}
+
+.stats-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  border-radius: var(--border-radius);
+  background-color: var(--color-bg-secondary);
+}
+
+.stats-item.success {
+  background-color: rgba(34, 197, 94, 0.1);
+  border-left: 3px solid var(--color-success);
+}
+
+.stats-item.danger {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-left: 3px solid var(--color-danger);
+}
+
+.stats-category {
+  font-weight: 500;
+}
+
+.stats-value {
+  font-weight: 600;
+}
+
+/* ========== Position Stats ========== */
+#position-stats .stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* ========== Debates Table ========== */
+#debates-table-container {
+  overflow-x: auto;
+}
+
+.debates-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-sm);
+}
+
+.debates-table thead {
+  background-color: var(--color-bg-secondary);
+  border-bottom: 2px solid var(--color-border-dark);
+}
+
+.debates-table th {
+  padding: var(--spacing-md);
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-text);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color var(--transition-fast);
+}
+
+.debates-table th:hover {
+  background-color: var(--color-bg-hover);
+}
+
+.debates-table th.no-sort {
+  cursor: default;
+}
+
+.debates-table th.no-sort:hover {
+  background-color: var(--color-bg-secondary);
+}
+
+.debates-table td {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.debates-table tbody tr {
+  transition: background-color var(--transition-fast);
+}
+
+.debates-table tbody tr:hover {
+  background-color: var(--color-bg-hover);
+}
+
+.debates-table tbody tr.row-success {
+  background-color: rgba(34, 197, 94, 0.05);
+}
+
+.debates-table tbody tr.row-danger {
+  background-color: rgba(239, 68, 68, 0.05);
+}
+
+.debates-table tbody tr.row-success:hover {
+  background-color: rgba(34, 197, 94, 0.1);
+}
+
+.debates-table tbody tr.row-danger:hover {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.link-icon {
+  text-decoration: none;
+  font-size: var(--font-size-lg);
+  transition: transform var(--transition-fast);
+  display: inline-block;
+}
+
+.link-icon:hover {
+  transform: scale(1.2);
+}
