@@ -82,20 +82,23 @@
 /* ========== Win Rate Chart ========== */
 #win-rate-chart {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center; 
   align-items: center;
 }
 
 .chart-canvas {
-  max-width: 300px;
-  max-height: 300px;
+  --size: calc(var(--font-size-base) * 13);
+  max-width: var(--size);
+  max-height: var(--size);
+  flex-shrink: 0;
 }
 
 .win-rate-details {
   margin-top: var(--spacing-lg);
-  text-align: center;
   color: var(--color-text-muted);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
+  text-align: left;  
 }
 
 /* ========== Speaker Points Chart ========== */

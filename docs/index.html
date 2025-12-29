@@ -10,11 +10,13 @@
   </head>
   <body>
     <div id="app">
-      <h1>Speaker Stats</h1>
-      
       <div class="grid-container">
-        <div class="grid-item" id="debater-selector">
-          <h2>Select Debater</h2>
+        <div class="grid-item">
+          <div id="debater-selector">
+            <h2>Select Debater</h2>
+          </div>
+          <div id="win-rate-chart" style="margin-top: var(--spacing-2xl);">
+          </div>
         </div>
         
         <div class="grid-item" id="speaker-points-chart">
@@ -37,6 +39,7 @@
       </div>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
     <script type="module" src="main.js"></script>
   </body>
 </html>
