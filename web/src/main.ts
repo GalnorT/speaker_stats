@@ -1,4 +1,5 @@
 import { DebaterSelector } from './components/DebaterSelector.js';
+import { SpeakerPointsChart } from './components/SpeakerPointsChart.js';
 import { WinRateChart } from './components/WinRateChart.js';
 import { AppState, DebaterStats } from './types.js';
 
@@ -11,6 +12,7 @@ const state: AppState = {
 
 let debaterSelector: DebaterSelector | null = null;
 let winRateChart: WinRateChart | null = null;
+let speakerPointsChart: SpeakerPointsChart | null = null;
 
 async function loadData(): Promise<void> {
   try {
@@ -50,6 +52,11 @@ function initializeComponents(): void {
     'win-rate-chart',
     state.currentDebater
   );
+
+  speakerPointsChart = new SpeakerPointsChart(
+    'speaker-points-chart',
+    state.currentDebater
+  );
 }
 
 function onDebaterSelected(debater: DebaterStats): void {
@@ -59,9 +66,12 @@ function onDebaterSelected(debater: DebaterStats): void {
   if (winRateChart) {
     winRateChart.update(debater);
   }
+
+  if (speakerPointsChart) {
+    speakerPointsChart.update(debater);
+  }
   
   // TODO: Update other components here
-  // updateSpeakerPointsChart(debater);
   // updateMotionStats(debater);
   // updatePositionStats(debater);
   // updateDebatesTable(debater);

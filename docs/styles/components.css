@@ -103,7 +103,7 @@
 
 /* ========== Speaker Points Chart ========== */
 #speaker-points-chart canvas {
-  max-height: 400px;
+  --size : calc(var(--font-size-base) * 40);
 }
 
 /* ========== Motion Stats ========== */
