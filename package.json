@@ -1,0 +1,17 @@
+{
+  "name": "speaker-stats-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf docs/*.js docs/components",
+    "build:web": "npm run build",
+    "serve": "npx serve docs"
+  },
+  "devDependencies": {
+    "serve": "^14.2.5",
+    "typescript": "^5.3.3"
+  }
+}
