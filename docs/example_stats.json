@@ -1,0 +1,255 @@
+[
+    {
+        "name": "Tomáš Galnor",
+        "side_win_rates": {
+            "total": 0.65,
+            "aff": 0.7,
+            "neg": 0.6
+        },
+        "position_win_rates": {
+            "1": 0.6,
+            "2": 0.7,
+            "3": 0.65
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Economics",
+                    "win_rate": 0.75
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.7
+                },
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.68
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Environment",
+                    "win_rate": 0.5
+                },
+                {
+                    "category": "Technology",
+                    "win_rate": 0.55
+                },
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.58
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 3,
+                "opponent": "Team Alpha",
+                "was_aff": true,
+                "link": "http://example.com/debate1"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "EX-tremely good team",
+                "was_aff": false,
+                "link": "http://example.com/debate2"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "We are only here for the three food",
+                "was_aff": true,
+                "link": "http://example.com/debate3"
+            }
+        ]
+
+    },
+    {
+        "name": "Sarah Martinez",
+        "side_win_rates": {
+            "total": 0.58,
+            "aff": 0.55,
+            "neg": 0.62
+        },
+        "position_win_rates": {
+            "1": 0.65,
+            "2": 0.55,
+            "3": 0.54
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.80
+                },
+                {
+                    "category": "Technology",
+                    "win_rate": 0.72
+                },
+                {
+                    "category": "Environment",
+                    "win_rate": 0.68
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Economics",
+                    "win_rate": 0.45
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.48
+                },
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.52
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 2,
+                "opponent": "Debate Masters",
+                "was_aff": false,
+                "link": "http://example.com/debate4"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "The Argumentative Few",
+                "was_aff": true,
+                "link": "http://example.com/debate5"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Casual Contenders",
+                "was_aff": false,
+                "link": "http://example.com/debate6"
+            }
+        ]
+    },
+    {
+        "name": "James Chen",
+        "side_win_rates": {
+            "total": 0.72,
+            "aff": 0.68,
+            "neg": 0.76
+        },
+        "position_win_rates": {
+            "1": 0.75,
+            "2": 0.70,
+            "3": 0.71
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Technology",
+                    "win_rate": 0.85
+                },
+                {
+                    "category": "Economics",
+                    "win_rate": 0.78
+                },
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.74
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Education",
+                    "win_rate": 0.60
+                },
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.64
+                },
+                {
+                    "category": "Environment",
+                    "win_rate": 0.66
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 3,
+                "opponent": "The Persuaders",
+                "was_aff": false,
+                "link": "http://example.com/debate7"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Logic Squad",
+                "was_aff": true,
+                "link": "http://example.com/debate8"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Rhetorical Rebels",
+                "was_aff": false,
+                "link": "http://example.com/debate9"
+            }
+        ]
+    },
+    {
+        "name": "Aisha Okafor",
+        "side_win_rates": {
+            "total": 0.48,
+            "aff": 0.52,
+            "neg": 0.44
+        },
+        "position_win_rates": {
+            "1": 0.45,
+            "2": 0.50,
+            "3": 0.49
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.70
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.65
+                },
+                {
+                    "category": "Environment",
+                    "win_rate": 0.58
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Technology",
+                    "win_rate": 0.35
+                },
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.38
+                },
+                {
+                    "category": "Economics",
+                    "win_rate": 0.42
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 1,
+                "opponent": "Verbal Warriors",
+                "was_aff": true,
+                "link": "http://example.com/debate10"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Championship Challengers",
+                "was_aff": false,
+                "link": "http://example.com/debate11"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "The Rebuttal Rangers",
+                "was_aff": true,
+                "link": "http://example.com/debate12"
+            }
+        ]
+    }
+]
