@@ -1,6 +1,21 @@
 /* ========== Debater Selector ========== */
 #debater-selector {
   position: relative;
+  transition: box-shadow var(--transition-base);
+}
+
+/* Pulse animation for first load */
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(59, 130, 246, 0);
+  }
+}
+
+#debater-selector.highlight {
+  animation: pulse 2s ease-in-out 3;
 }
 
 .selector-input {
@@ -16,6 +31,10 @@
 .selector-input:focus {
   outline: none;
   border-color: var(--color-primary);
+}
+
+.selector-input::placeholder {
+  color: var(--color-text-muted);
 }
 
 .selector-dropdown {
@@ -46,6 +65,18 @@
 
 .selector-option:hover {
   background-color: var(--color-bg-hover);
+}
+
+.selector-option.selected {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.selector-hint {
+  margin-top: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  text-align: center;
 }
 
 /* ========== Win Rate Chart ========== */

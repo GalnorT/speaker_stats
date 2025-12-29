@@ -1,3 +1,4 @@
+import { DebaterSelector } from './components/DebaterSelector.js';
 import { AppState, DebaterStats } from './types.js';
 
 console.log('Speaker Stats app initialized!');
@@ -6,6 +7,8 @@ const state: AppState = {
   allDebaters: [],
   currentDebater: null
 };
+
+let debaterSelector: DebaterSelector | null = null;
 
 async function loadData(): Promise<void> {
   try {
@@ -21,10 +24,37 @@ async function loadData(): Promise<void> {
     console.log(`Loaded ${state.allDebaters.length} debaters`);
     console.log('Current debater:', state.currentDebater?.name);
     
+    initializeComponents();
+    
   } catch (error) {
     console.error('Failed to load data:', error);
   }
 }
 
-// Initialize app
+function initializeComponents(): void {
+  if (!state.currentDebater) {
+    console.error('No debater selected');
+    return;
+  }
+
+  debaterSelector = new DebaterSelector(
+    'debater-selector',
+    state.allDebaters,
+    state.currentDebater,
+    onDebaterSelected
+  );
+}
+
+function onDebaterSelected(debater: DebaterStats): void {
+  console.log('Debater selected:', debater.name);
+  state.currentDebater = debater;
+  
+  // TODO: Update other components here
+  // updateWinRateChart(debater);
+  // updateSpeakerPointsChart(debater);
+  // updateMotionStats(debater);
+  // updatePositionStats(debater);
+  // updateDebatesTable(debater);
+}
+
 loadData();
