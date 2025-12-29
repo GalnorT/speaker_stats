@@ -6,10 +6,10 @@
             "aff": 0.7,
             "neg": 0.6
         },
-        "position_win_rates": {
-            "1": 0.6,
-            "2": 0.7,
-            "3": 0.65
+        "positions_speaker_points": {
+            "1": 76.5,
+            "2": 78.0,
+            "3": 75.5
         },
         "motion_category_stats": {
             "top_3": [
@@ -46,19 +46,25 @@
                 "ballots_gained": 3,
                 "opponent": "Team Alpha",
                 "was_aff": true,
-                "link": "http://example.com/debate1"
+                "link": "http://example.com/debate1",
+                "speaker_points": 78.5,
+                "date": "2025-10-15"
             },
             {
                 "ballots_gained": 2,
                 "opponent": "EX-tremely good team",
                 "was_aff": false,
-                "link": "http://example.com/debate2"
+                "link": "http://example.com/debate2",
+                "speaker_points": 76.0,
+                "date": "2025-11-08"
             },
             {
                 "ballots_gained": 0,
                 "opponent": "We are only here for the three food",
                 "was_aff": true,
-                "link": "http://example.com/debate3"
+                "link": "http://example.com/debate3",
+                "speaker_points": 71.5,
+                "date": "2025-12-03"
             }
         ]
 
@@ -70,10 +76,10 @@
             "aff": 0.55,
             "neg": 0.62
         },
-        "position_win_rates": {
-            "1": 0.65,
-            "2": 0.55,
-            "3": 0.54
+        "positions_speaker_points": {
+            "1": 77.5,
+            "2": 74.0,
+            "3": 73.5
         },
         "motion_category_stats": {
             "top_3": [
@@ -110,19 +116,25 @@
                 "ballots_gained": 2,
                 "opponent": "Debate Masters",
                 "was_aff": false,
-                "link": "http://example.com/debate4"
+                "link": "http://example.com/debate4",
+                "speaker_points": 74.5,
+                "date": "2025-10-22"
             },
             {
                 "ballots_gained": 3,
                 "opponent": "The Argumentative Few",
                 "was_aff": true,
-                "link": "http://example.com/debate5"
+                "link": "http://example.com/debate5",
+                "speaker_points": 79.0,
+                "date": "2025-11-14"
             },
             {
                 "ballots_gained": 1,
                 "opponent": "Casual Contenders",
                 "was_aff": false,
-                "link": "http://example.com/debate6"
+                "link": "http://example.com/debate6",
+                "speaker_points": 72.0,
+                "date": "2025-12-10"
             }
         ]
     },
@@ -133,10 +145,10 @@
             "aff": 0.68,
             "neg": 0.76
         },
-        "position_win_rates": {
-            "1": 0.75,
-            "2": 0.70,
-            "3": 0.71
+        "positions_speaker_points": {
+            "1": 80.0,
+            "2": 78.5,
+            "3": 79.0
         },
         "motion_category_stats": {
             "top_3": [
@@ -173,19 +185,25 @@
                 "ballots_gained": 3,
                 "opponent": "The Persuaders",
                 "was_aff": false,
-                "link": "http://example.com/debate7"
+                "link": "http://example.com/debate7",
+                "speaker_points": 81.0,
+                "date": "2025-10-05"
             },
             {
                 "ballots_gained": 2,
                 "opponent": "Logic Squad",
                 "was_aff": true,
-                "link": "http://example.com/debate8"
+                "link": "http://example.com/debate8",
+                "speaker_points": 77.5,
+                "date": "2025-11-20"
             },
             {
                 "ballots_gained": 3,
                 "opponent": "Rhetorical Rebels",
                 "was_aff": false,
-                "link": "http://example.com/debate9"
+                "link": "http://example.com/debate9",
+                "speaker_points": 82.5,
+                "date": "2025-12-18"
             }
         ]
     },
@@ -196,10 +214,10 @@
             "aff": 0.52,
             "neg": 0.44
         },
-        "position_win_rates": {
-            "1": 0.45,
-            "2": 0.50,
-            "3": 0.49
+        "positions_speaker_points": {
+            "1": 71.0,
+            "2": 72.5,
+            "3": 71.5
         },
         "motion_category_stats": {
             "top_3": [
@@ -236,19 +254,25 @@
                 "ballots_gained": 1,
                 "opponent": "Verbal Warriors",
                 "was_aff": true,
-                "link": "http://example.com/debate10"
+                "link": "http://example.com/debate10",
+                "speaker_points": 70.0,
+                "date": "2025-10-28"
             },
             {
                 "ballots_gained": 0,
                 "opponent": "Championship Challengers",
                 "was_aff": false,
-                "link": "http://example.com/debate11"
+                "link": "http://example.com/debate11",
+                "speaker_points": 68.5,
+                "date": "2025-11-25"
             },
             {
                 "ballots_gained": 2,
                 "opponent": "The Rebuttal Rangers",
                 "was_aff": true,
-                "link": "http://example.com/debate12"
+                "link": "http://example.com/debate12",
+                "speaker_points": 75.0,
+                "date": "2025-12-22"
             }
         ]
     }
