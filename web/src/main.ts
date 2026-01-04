@@ -1,4 +1,5 @@
 import { DebaterSelector } from './components/DebaterSelector.js';
+import { DebatesTable } from './components/DebatesTable.js';
 import { MotionStats } from './components/MotionStats.js';
 import { PositionStats } from './components/PositionStats.js';
 import { SpeakerPointsChart } from './components/SpeakerPointsChart.js';
@@ -17,6 +18,7 @@ let winRateChart: WinRateChart | null = null;
 let speakerPointsChart: SpeakerPointsChart | null = null;
 let motionStats: MotionStats | null = null;
 let positionStats: PositionStats | null = null;
+let debatesTable: DebatesTable | null = null;
 
 async function loadData(): Promise<void> {
   try {
@@ -71,6 +73,11 @@ function initializeComponents(): void {
     'position-stats',
     state.currentDebater
   );
+
+  debatesTable = new DebatesTable(
+    'debates-table-container',
+    state.currentDebater
+  );
 }
 
 function onDebaterSelected(debater: DebaterStats): void {
@@ -92,8 +99,10 @@ function onDebaterSelected(debater: DebaterStats): void {
   if (positionStats) {
     positionStats.update(debater);
   }
-  
-  // TODO: Update DebatesTable component
+
+  if (debatesTable) {
+    debatesTable.update(debater);
+  }
 }
 
 loadData();
