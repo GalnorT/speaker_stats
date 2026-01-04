@@ -1,4 +1,6 @@
 import { DebaterSelector } from './components/DebaterSelector.js';
+import { MotionStats } from './components/MotionStats.js';
+import { PositionStats } from './components/PositionStats.js';
 import { SpeakerPointsChart } from './components/SpeakerPointsChart.js';
 import { WinRateChart } from './components/WinRateChart.js';
 import { AppState, DebaterStats } from './types.js';
@@ -13,6 +15,8 @@ const state: AppState = {
 let debaterSelector: DebaterSelector | null = null;
 let winRateChart: WinRateChart | null = null;
 let speakerPointsChart: SpeakerPointsChart | null = null;
+let motionStats: MotionStats | null = null;
+let positionStats: PositionStats | null = null;
 
 async function loadData(): Promise<void> {
   try {
@@ -57,6 +61,16 @@ function initializeComponents(): void {
     'speaker-points-chart',
     state.currentDebater
   );
+
+  motionStats = new MotionStats(
+    'motion-stats',
+    state.currentDebater
+  );
+
+  positionStats = new PositionStats(
+    'position-stats',
+    state.currentDebater
+  );
 }
 
 function onDebaterSelected(debater: DebaterStats): void {
@@ -70,11 +84,16 @@ function onDebaterSelected(debater: DebaterStats): void {
   if (speakerPointsChart) {
     speakerPointsChart.update(debater);
   }
+
+  if (motionStats) {
+    motionStats.update(debater);
+  }
+
+  if (positionStats) {
+    positionStats.update(debater);
+  }
   
-  // TODO: Update other components here
-  // updateMotionStats(debater);
-  // updatePositionStats(debater);
-  // updateDebatesTable(debater);
+  // TODO: Update DebatesTable component
 }
 
 loadData();

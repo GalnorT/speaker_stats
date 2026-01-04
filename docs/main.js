@@ -1,4 +1,6 @@
 import { DebaterSelector } from './components/DebaterSelector.js';
+import { MotionStats } from './components/MotionStats.js';
+import { PositionStats } from './components/PositionStats.js';
 import { SpeakerPointsChart } from './components/SpeakerPointsChart.js';
 import { WinRateChart } from './components/WinRateChart.js';
 console.log('Speaker Stats app initialized!');
@@ -9,6 +11,8 @@ const state = {
 let debaterSelector = null;
 let winRateChart = null;
 let speakerPointsChart = null;
+let motionStats = null;
+let positionStats = null;
 async function loadData() {
     try {
         const response = await fetch('./example_stats.json');
@@ -35,6 +39,8 @@ function initializeComponents() {
     debaterSelector = new DebaterSelector('debater-selector', state.allDebaters, state.currentDebater, onDebaterSelected);
     winRateChart = new WinRateChart('win-rate-chart', state.currentDebater);
     speakerPointsChart = new SpeakerPointsChart('speaker-points-chart', state.currentDebater);
+    motionStats = new MotionStats('motion-stats', state.currentDebater);
+    positionStats = new PositionStats('position-stats', state.currentDebater);
 }
 function onDebaterSelected(debater) {
     console.log('Debater selected:', debater.name);
@@ -45,9 +51,12 @@ function onDebaterSelected(debater) {
     if (speakerPointsChart) {
         speakerPointsChart.update(debater);
     }
-    // TODO: Update other components here
-    // updateMotionStats(debater);
-    // updatePositionStats(debater);
-    // updateDebatesTable(debater);
+    if (motionStats) {
+        motionStats.update(debater);
+    }
+    if (positionStats) {
+        positionStats.update(debater);
+    }
+    // TODO: Update DebatesTable component
 }
 loadData();
