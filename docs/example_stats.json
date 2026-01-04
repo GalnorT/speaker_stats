@@ -65,12 +65,67 @@
                 "link": "http://example.com/debate3",
                 "speaker_points": 71.5,
                 "date": "2025-12-03"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Debate Warriors",
+                "was_aff": false,
+                "link": "http://example.com/debate4",
+                "speaker_points": 79.0,
+                "date": "2025-09-20"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Logic Masters",
+                "was_aff": true,
+                "link": "http://example.com/debate5",
+                "speaker_points": 77.5,
+                "date": "2025-08-12"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "The Rhetoricians",
+                "was_aff": false,
+                "link": "http://example.com/debate6",
+                "speaker_points": 80.0,
+                "date": "2025-07-05"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Argument Kings",
+                "was_aff": true,
+                "link": "http://example.com/debate7",
+                "speaker_points": 74.0,
+                "date": "2025-06-18"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Speech Elite",
+                "was_aff": false,
+                "link": "http://example.com/debate8",
+                "speaker_points": 76.5,
+                "date": "2025-05-22"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "The Contenders",
+                "was_aff": true,
+                "link": "http://example.com/debate9",
+                "speaker_points": 78.0,
+                "date": "2025-04-10"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Verbal Titans",
+                "was_aff": false,
+                "link": "http://example.com/debate10",
+                "speaker_points": 72.5,
+                "date": "2025-03-15"
             }
         ]
-
     },
     {
-        "name": "Sarah Martinez",
+        "name": "Petra Nováková",
         "side_win_rates": {
             "total": 0.58,
             "aff": 0.55,
@@ -116,7 +171,7 @@
                 "ballots_gained": 2,
                 "opponent": "Debate Masters",
                 "was_aff": false,
-                "link": "http://example.com/debate4",
+                "link": "http://example.com/debate11",
                 "speaker_points": 74.5,
                 "date": "2025-10-22"
             },
@@ -124,7 +179,7 @@
                 "ballots_gained": 3,
                 "opponent": "The Argumentative Few",
                 "was_aff": true,
-                "link": "http://example.com/debate5",
+                "link": "http://example.com/debate12",
                 "speaker_points": 79.0,
                 "date": "2025-11-14"
             },
@@ -132,14 +187,70 @@
                 "ballots_gained": 1,
                 "opponent": "Casual Contenders",
                 "was_aff": false,
-                "link": "http://example.com/debate6",
+                "link": "http://example.com/debate13",
                 "speaker_points": 72.0,
                 "date": "2025-12-10"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Debate Club Stars",
+                "was_aff": true,
+                "link": "http://example.com/debate14",
+                "speaker_points": 75.5,
+                "date": "2025-09-08"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "The Persuasive",
+                "was_aff": false,
+                "link": "http://example.com/debate15",
+                "speaker_points": 70.0,
+                "date": "2025-08-25"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Speech Champions",
+                "was_aff": true,
+                "link": "http://example.com/debate16",
+                "speaker_points": 78.5,
+                "date": "2025-07-19"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Argument Aces",
+                "was_aff": false,
+                "link": "http://example.com/debate17",
+                "speaker_points": 76.0,
+                "date": "2025-06-30"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Logic Lords",
+                "was_aff": true,
+                "link": "http://example.com/debate18",
+                "speaker_points": 73.0,
+                "date": "2025-05-14"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Rhetoric Rebels",
+                "was_aff": false,
+                "link": "http://example.com/debate19",
+                "speaker_points": 77.0,
+                "date": "2025-04-28"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Verbal Virtuosos",
+                "was_aff": true,
+                "link": "http://example.com/debate20",
+                "speaker_points": 75.0,
+                "date": "2025-03-22"
             }
         ]
     },
     {
-        "name": "James Chen",
+        "name": "Jan Dvořák",
         "side_win_rates": {
             "total": 0.72,
             "aff": 0.68,
@@ -185,7 +296,7 @@
                 "ballots_gained": 3,
                 "opponent": "The Persuaders",
                 "was_aff": false,
-                "link": "http://example.com/debate7",
+                "link": "http://example.com/debate21",
                 "speaker_points": 81.0,
                 "date": "2025-10-05"
             },
@@ -193,7 +304,7 @@
                 "ballots_gained": 2,
                 "opponent": "Logic Squad",
                 "was_aff": true,
-                "link": "http://example.com/debate8",
+                "link": "http://example.com/debate22",
                 "speaker_points": 77.5,
                 "date": "2025-11-20"
             },
@@ -201,14 +312,70 @@
                 "ballots_gained": 3,
                 "opponent": "Rhetorical Rebels",
                 "was_aff": false,
-                "link": "http://example.com/debate9",
+                "link": "http://example.com/debate23",
                 "speaker_points": 82.5,
                 "date": "2025-12-18"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Debate Dynamos",
+                "was_aff": true,
+                "link": "http://example.com/debate24",
+                "speaker_points": 80.5,
+                "date": "2025-09-12"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Speech Titans",
+                "was_aff": false,
+                "link": "http://example.com/debate25",
+                "speaker_points": 78.0,
+                "date": "2025-08-04"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Argument Experts",
+                "was_aff": true,
+                "link": "http://example.com/debate26",
+                "speaker_points": 81.5,
+                "date": "2025-07-28"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "The Debaters",
+                "was_aff": false,
+                "link": "http://example.com/debate27",
+                "speaker_points": 76.5,
+                "date": "2025-06-15"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Logic Legends",
+                "was_aff": true,
+                "link": "http://example.com/debate28",
+                "speaker_points": 79.5,
+                "date": "2025-05-08"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Rhetoric Rulers",
+                "was_aff": false,
+                "link": "http://example.com/debate29",
+                "speaker_points": 78.5,
+                "date": "2025-04-18"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Verbal Victors",
+                "was_aff": true,
+                "link": "http://example.com/debate30",
+                "speaker_points": 80.0,
+                "date": "2025-03-10"
             }
         ]
     },
     {
-        "name": "Aisha Okafor",
+        "name": "Karolína Svobodová",
         "side_win_rates": {
             "total": 0.48,
             "aff": 0.52,
@@ -254,7 +421,7 @@
                 "ballots_gained": 1,
                 "opponent": "Verbal Warriors",
                 "was_aff": true,
-                "link": "http://example.com/debate10",
+                "link": "http://example.com/debate31",
                 "speaker_points": 70.0,
                 "date": "2025-10-28"
             },
@@ -262,7 +429,7 @@
                 "ballots_gained": 0,
                 "opponent": "Championship Challengers",
                 "was_aff": false,
-                "link": "http://example.com/debate11",
+                "link": "http://example.com/debate32",
                 "speaker_points": 68.5,
                 "date": "2025-11-25"
             },
@@ -270,9 +437,815 @@
                 "ballots_gained": 2,
                 "opponent": "The Rebuttal Rangers",
                 "was_aff": true,
-                "link": "http://example.com/debate12",
+                "link": "http://example.com/debate33",
                 "speaker_points": 75.0,
                 "date": "2025-12-22"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Debate Divas",
+                "was_aff": false,
+                "link": "http://example.com/debate34",
+                "speaker_points": 71.5,
+                "date": "2025-09-16"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Speech Scholars",
+                "was_aff": true,
+                "link": "http://example.com/debate35",
+                "speaker_points": 74.5,
+                "date": "2025-08-29"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Argument Angels",
+                "was_aff": false,
+                "link": "http://example.com/debate36",
+                "speaker_points": 69.0,
+                "date": "2025-07-12"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "The Orators",
+                "was_aff": true,
+                "link": "http://example.com/debate37",
+                "speaker_points": 72.0,
+                "date": "2025-06-24"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Logic Leaders",
+                "was_aff": false,
+                "link": "http://example.com/debate38",
+                "speaker_points": 70.5,
+                "date": "2025-05-18"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Rhetoric Royals",
+                "was_aff": true,
+                "link": "http://example.com/debate39",
+                "speaker_points": 73.5,
+                "date": "2025-04-05"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Verbal Veterans",
+                "was_aff": false,
+                "link": "http://example.com/debate40",
+                "speaker_points": 68.0,
+                "date": "2025-03-28"
+            }
+        ]
+    },
+    {
+        "name": "Lukáš Černý",
+        "side_win_rates": {
+            "total": 0.62,
+            "aff": 0.64,
+            "neg": 0.60
+        },
+        "positions_speaker_points": {
+            "1": 75.5,
+            "2": 76.0,
+            "3": 74.5
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Education",
+                    "win_rate": 0.77
+                },
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.71
+                },
+                {
+                    "category": "Economics",
+                    "win_rate": 0.68
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Technology",
+                    "win_rate": 0.52
+                },
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.54
+                },
+                {
+                    "category": "Environment",
+                    "win_rate": 0.56
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 2,
+                "opponent": "Debate Dragons",
+                "was_aff": true,
+                "link": "http://example.com/debate41",
+                "speaker_points": 76.5,
+                "date": "2025-10-10"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Speech Spartans",
+                "was_aff": false,
+                "link": "http://example.com/debate42",
+                "speaker_points": 77.0,
+                "date": "2025-11-05"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Argument Avengers",
+                "was_aff": true,
+                "link": "http://example.com/debate43",
+                "speaker_points": 73.5,
+                "date": "2025-12-15"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "The Speakers",
+                "was_aff": false,
+                "link": "http://example.com/debate44",
+                "speaker_points": 75.0,
+                "date": "2025-09-22"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Logic Lions",
+                "was_aff": true,
+                "link": "http://example.com/debate45",
+                "speaker_points": 78.5,
+                "date": "2025-08-14"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Rhetoric Rangers",
+                "was_aff": false,
+                "link": "http://example.com/debate46",
+                "speaker_points": 71.0,
+                "date": "2025-07-07"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Verbal Vanguards",
+                "was_aff": true,
+                "link": "http://example.com/debate47",
+                "speaker_points": 76.0,
+                "date": "2025-06-20"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Debate Defenders",
+                "was_aff": false,
+                "link": "http://example.com/debate48",
+                "speaker_points": 77.5,
+                "date": "2025-05-12"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Speech Soldiers",
+                "was_aff": true,
+                "link": "http://example.com/debate49",
+                "speaker_points": 74.0,
+                "date": "2025-04-24"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Argument Ambassadors",
+                "was_aff": false,
+                "link": "http://example.com/debate50",
+                "speaker_points": 75.5,
+                "date": "2025-03-18"
+            }
+        ]
+    },
+    {
+        "name": "Barbora Procházková",
+        "side_win_rates": {
+            "total": 0.69,
+            "aff": 0.73,
+            "neg": 0.65
+        },
+        "positions_speaker_points": {
+            "1": 78.5,
+            "2": 79.0,
+            "3": 77.5
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Environment",
+                    "win_rate": 0.82
+                },
+                {
+                    "category": "Technology",
+                    "win_rate": 0.76
+                },
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.73
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Economics",
+                    "win_rate": 0.58
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.61
+                },
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.64
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 3,
+                "opponent": "The Thinkers",
+                "was_aff": true,
+                "link": "http://example.com/debate51",
+                "speaker_points": 80.0,
+                "date": "2025-10-18"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Logic Luminaries",
+                "was_aff": false,
+                "link": "http://example.com/debate52",
+                "speaker_points": 77.0,
+                "date": "2025-11-12"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Rhetoric Renegades",
+                "was_aff": true,
+                "link": "http://example.com/debate53",
+                "speaker_points": 81.5,
+                "date": "2025-12-08"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Verbal Valkyries",
+                "was_aff": false,
+                "link": "http://example.com/debate54",
+                "speaker_points": 75.5,
+                "date": "2025-09-28"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Debate Dons",
+                "was_aff": true,
+                "link": "http://example.com/debate55",
+                "speaker_points": 79.5,
+                "date": "2025-08-20"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Speech Savants",
+                "was_aff": false,
+                "link": "http://example.com/debate56",
+                "speaker_points": 78.0,
+                "date": "2025-07-14"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Argument Architects",
+                "was_aff": true,
+                "link": "http://example.com/debate57",
+                "speaker_points": 80.5,
+                "date": "2025-06-08"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "The Philosophers",
+                "was_aff": false,
+                "link": "http://example.com/debate58",
+                "speaker_points": 73.0,
+                "date": "2025-05-26"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Logic Lads",
+                "was_aff": true,
+                "link": "http://example.com/debate59",
+                "speaker_points": 77.5,
+                "date": "2025-04-16"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Rhetoric Rockstars",
+                "was_aff": false,
+                "link": "http://example.com/debate60",
+                "speaker_points": 79.0,
+                "date": "2025-03-08"
+            }
+        ]
+    },
+    {
+        "name": "Martin Kučera",
+        "side_win_rates": {
+            "total": 0.54,
+            "aff": 0.50,
+            "neg": 0.58
+        },
+        "positions_speaker_points": {
+            "1": 73.5,
+            "2": 74.5,
+            "3": 72.0
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.68
+                },
+                {
+                    "category": "Economics",
+                    "win_rate": 0.64
+                },
+                {
+                    "category": "Technology",
+                    "win_rate": 0.61
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.43
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.46
+                },
+                {
+                    "category": "Environment",
+                    "win_rate": 0.49
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 2,
+                "opponent": "Verbal Wizards",
+                "was_aff": false,
+                "link": "http://example.com/debate61",
+                "speaker_points": 75.0,
+                "date": "2025-10-12"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Debate Destroyers",
+                "was_aff": true,
+                "link": "http://example.com/debate62",
+                "speaker_points": 72.5,
+                "date": "2025-11-18"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Speech Sages",
+                "was_aff": false,
+                "link": "http://example.com/debate63",
+                "speaker_points": 70.0,
+                "date": "2025-12-20"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Argument Artisans",
+                "was_aff": true,
+                "link": "http://example.com/debate64",
+                "speaker_points": 76.5,
+                "date": "2025-09-14"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "The Reasoners",
+                "was_aff": false,
+                "link": "http://example.com/debate65",
+                "speaker_points": 74.0,
+                "date": "2025-08-18"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Logic Lovers",
+                "was_aff": true,
+                "link": "http://example.com/debate66",
+                "speaker_points": 71.5,
+                "date": "2025-07-22"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Rhetoric Riders",
+                "was_aff": false,
+                "link": "http://example.com/debate67",
+                "speaker_points": 75.5,
+                "date": "2025-06-12"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Verbal Virtuosos",
+                "was_aff": true,
+                "link": "http://example.com/debate68",
+                "speaker_points": 77.0,
+                "date": "2025-05-20"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Debate Disciples",
+                "was_aff": false,
+                "link": "http://example.com/debate69",
+                "speaker_points": 69.5,
+                "date": "2025-04-12"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Speech Stars",
+                "was_aff": true,
+                "link": "http://example.com/debate70",
+                "speaker_points": 73.0,
+                "date": "2025-03-24"
+            }
+        ]
+    },
+    {
+        "name": "Veronika Maršálková",
+        "side_win_rates": {
+            "total": 0.61,
+            "aff": 0.59,
+            "neg": 0.63
+        },
+        "positions_speaker_points": {
+            "1": 76.0,
+            "2": 75.5,
+            "3": 76.5
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.75
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.69
+                },
+                {
+                    "category": "Environment",
+                    "win_rate": 0.66
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.50
+                },
+                {
+                    "category": "Technology",
+                    "win_rate": 0.54
+                },
+                {
+                    "category": "Economics",
+                    "win_rate": 0.57
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 3,
+                "opponent": "Argument All-Stars",
+                "was_aff": true,
+                "link": "http://example.com/debate71",
+                "speaker_points": 78.0,
+                "date": "2025-10-24"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "The Talkatives",
+                "was_aff": false,
+                "link": "http://example.com/debate72",
+                "speaker_points": 75.5,
+                "date": "2025-11-28"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Logic Lieutenants",
+                "was_aff": true,
+                "link": "http://example.com/debate73",
+                "speaker_points": 74.0,
+                "date": "2025-12-12"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Rhetoric Reapers",
+                "was_aff": false,
+                "link": "http://example.com/debate74",
+                "speaker_points": 76.5,
+                "date": "2025-09-06"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Verbal Vixens",
+                "was_aff": true,
+                "link": "http://example.com/debate75",
+                "speaker_points": 77.5,
+                "date": "2025-08-10"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Debate Dukes",
+                "was_aff": false,
+                "link": "http://example.com/debate76",
+                "speaker_points": 72.0,
+                "date": "2025-07-16"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Speech Sultans",
+                "was_aff": true,
+                "link": "http://example.com/debate77",
+                "speaker_points": 76.0,
+                "date": "2025-06-28"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Argument Aces",
+                "was_aff": false,
+                "link": "http://example.com/debate78",
+                "speaker_points": 78.5,
+                "date": "2025-05-04"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "The Debaters Elite",
+                "was_aff": true,
+                "link": "http://example.com/debate79",
+                "speaker_points": 73.5,
+                "date": "2025-04-22"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Logic Legionnaires",
+                "was_aff": false,
+                "link": "http://example.com/debate80",
+                "speaker_points": 75.0,
+                "date": "2025-03-12"
+            }
+        ]
+    },
+    {
+        "name": "Jakub Horák",
+        "side_win_rates": {
+            "total": 0.75,
+            "aff": 0.78,
+            "neg": 0.72
+        },
+        "positions_speaker_points": {
+            "1": 81.0,
+            "2": 80.5,
+            "3": 79.5
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Economics",
+                    "win_rate": 0.88
+                },
+                {
+                    "category": "Technology",
+                    "win_rate": 0.83
+                },
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.79
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.65
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.68
+                },
+                {
+                    "category": "Environment",
+                    "win_rate": 0.71
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 3,
+                "opponent": "Rhetoric Revolutionaries",
+                "was_aff": true,
+                "link": "http://example.com/debate81",
+                "speaker_points": 82.0,
+                "date": "2025-10-08"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Verbal Vanquishers",
+                "was_aff": false,
+                "link": "http://example.com/debate82",
+                "speaker_points": 81.5,
+                "date": "2025-11-16"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Debate Dominators",
+                "was_aff": true,
+                "link": "http://example.com/debate83",
+                "speaker_points": 79.0,
+                "date": "2025-12-05"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Speech Supremes",
+                "was_aff": false,
+                "link": "http://example.com/debate84",
+                "speaker_points": 83.0,
+                "date": "2025-09-18"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Argument Authorities",
+                "was_aff": true,
+                "link": "http://example.com/debate85",
+                "speaker_points": 80.0,
+                "date": "2025-08-22"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "The Convincers",
+                "was_aff": false,
+                "link": "http://example.com/debate86",
+                "speaker_points": 82.5,
+                "date": "2025-07-10"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Logic Luminaries",
+                "was_aff": true,
+                "link": "http://example.com/debate87",
+                "speaker_points": 81.0,
+                "date": "2025-06-18"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Rhetoric Rulers",
+                "was_aff": false,
+                "link": "http://example.com/debate88",
+                "speaker_points": 77.5,
+                "date": "2025-05-16"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Verbal Veterans",
+                "was_aff": true,
+                "link": "http://example.com/debate89",
+                "speaker_points": 80.5,
+                "date": "2025-04-08"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Debate Dictators",
+                "was_aff": false,
+                "link": "http://example.com/debate90",
+                "speaker_points": 81.5,
+                "date": "2025-03-20"
+            }
+        ]
+    },
+    {
+        "name": "Tereza Pokorná",
+        "side_win_rates": {
+            "total": 0.52,
+            "aff": 0.48,
+            "neg": 0.56
+        },
+        "positions_speaker_points": {
+            "1": 72.5,
+            "2": 73.0,
+            "3": 71.0
+        },
+        "motion_category_stats": {
+            "top_3": [
+                {
+                    "category": "Environment",
+                    "win_rate": 0.66
+                },
+                {
+                    "category": "Education",
+                    "win_rate": 0.62
+                },
+                {
+                    "category": "Healthcare",
+                    "win_rate": 0.59
+                }
+            ],
+            "bottom_3": [
+                {
+                    "category": "Economics",
+                    "win_rate": 0.40
+                },
+                {
+                    "category": "Foreign Policy",
+                    "win_rate": 0.44
+                },
+                {
+                    "category": "Technology",
+                    "win_rate": 0.47
+                }
+            ]
+        },
+        "debates": [
+            {
+                "ballots_gained": 1,
+                "opponent": "Speech Specialists",
+                "was_aff": true,
+                "link": "http://example.com/debate91",
+                "speaker_points": 71.5,
+                "date": "2025-10-20"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Argument Admirals",
+                "was_aff": false,
+                "link": "http://example.com/debate92",
+                "speaker_points": 74.0,
+                "date": "2025-11-22"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "The Discussers",
+                "was_aff": true,
+                "link": "http://example.com/debate93",
+                "speaker_points": 68.5,
+                "date": "2025-12-16"
+            },
+            {
+                "ballots_gained": 3,
+                "opponent": "Logic Learners",
+                "was_aff": false,
+                "link": "http://example.com/debate94",
+                "speaker_points": 76.0,
+                "date": "2025-09-24"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Rhetoric Raiders",
+                "was_aff": true,
+                "link": "http://example.com/debate95",
+                "speaker_points": 70.0,
+                "date": "2025-08-16"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Verbal Venturers",
+                "was_aff": false,
+                "link": "http://example.com/debate96",
+                "speaker_points": 73.5,
+                "date": "2025-07-20"
+            },
+            {
+                "ballots_gained": 0,
+                "opponent": "Debate Demons",
+                "was_aff": true,
+                "link": "http://example.com/debate97",
+                "speaker_points": 69.0,
+                "date": "2025-06-22"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "Speech Senators",
+                "was_aff": false,
+                "link": "http://example.com/debate98",
+                "speaker_points": 75.0,
+                "date": "2025-05-28"
+            },
+            {
+                "ballots_gained": 1,
+                "opponent": "Argument Allies",
+                "was_aff": true,
+                "link": "http://example.com/debate99",
+                "speaker_points": 72.0,
+                "date": "2025-04-14"
+            },
+            {
+                "ballots_gained": 2,
+                "opponent": "The Talkers",
+                "was_aff": false,
+                "link": "http://example.com/debate100",
+                "speaker_points": 74.5,
+                "date": "2025-03-06"
             }
         ]
     }
