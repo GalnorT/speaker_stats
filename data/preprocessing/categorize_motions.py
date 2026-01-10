@@ -167,7 +167,6 @@ def load_motions(input_path: Path) -> set[str]:
     return motions
 
 
-@log_function_call()
 def calculate_category_score(motion: Motion, category: Category) -> CategoryScore:
     """Calculate match score between motion and category.
 
@@ -186,10 +185,6 @@ def calculate_category_score(motion: Motion, category: Category) -> CategoryScor
         if keyword in motion_words_set:
             matching_keywords.append(keyword)
             score += 1
-
-    logger.debug(
-        f"Matching keywords for category '{category.name}': {matching_keywords}"
-    )
 
     return CategoryScore(category=category, score=score)
 
@@ -308,10 +303,22 @@ def cmd_categorize(args):
     print(f"Categorization results saved to: {output_path}")
 
     no_category_count = sum(1 for r in results if r.top_category_1 is None)
+    one_category_count = sum(
+        1 for r in results if r.top_category_1 and r.top_category_2 is None
+    )
+    two_category_count = sum(
+        1 for r in results if r.top_category_2 and r.top_category_3 is None
+    )
+    three_category_count = (
+        len(results) - no_category_count - one_category_count - two_category_count
+    )
 
     print("\nSummary:")
     print(f"  Total motions categorized: {len(results)}")
     print(f"  No categories: {no_category_count}")
+    print(f"  One category: {one_category_count}")
+    print(f"  Two categories: {two_category_count}")
+    print(f"  Three categories: {three_category_count}")
 
 
 def main():
