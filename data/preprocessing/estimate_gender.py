@@ -119,9 +119,12 @@ def guess_gender_from_firstname(
     """
     first_name_lower = first_name.lower().strip()
 
-    if first_name_lower in female_names:
+    is_female = first_name_lower in female_names
+    is_male = first_name_lower in male_names
+
+    if is_female and not is_male:
         return Gender.FEMALE
-    elif first_name_lower in male_names:
+    elif is_male and not is_female:
         return Gender.MALE
     else:
         return Gender.INCONCLUSIVE
