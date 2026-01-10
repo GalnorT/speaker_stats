@@ -1,3 +1,4 @@
+import argparse
 import csv
 import json
 from dataclasses import dataclass
@@ -8,10 +9,8 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent
 PATH_TO_INPUT_CSV = PROJECT_ROOT / "data" / "raw" / "debate_data.csv"
 PATH_TO_MALE_NAMES = PROJECT_ROOT / "data" / "resources" / "male_names.txt"
 PATH_TO_FEMALE_NAMES = PROJECT_ROOT / "data" / "resources" / "female_names.txt"
+PATH_TO_DEBATER_NAMES = PROJECT_ROOT / "data" / "processed" / "debater_names.txt"
 PATH_TO_GENDER_OUTPUT = PROJECT_ROOT / "data" / "processed" / "debater_genders.csv"
-
-if not PATH_TO_INPUT_CSV.exists():
-    raise FileNotFoundError(f"Input file not found: {PATH_TO_INPUT_CSV}")
 
 
 class Gender(Enum):
@@ -63,6 +62,33 @@ def extract_debater_names(csv_path: Path) -> set[str]:
                     debater_names.add(speaker["name"])
 
     return debater_names
+
+
+def save_debater_names(names: set[str], output_path: Path) -> None:
+    """Save debater names to a text file.
+
+    Args:
+        names: Set of debater names
+        output_path: Path to output text file
+    """
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        for name in sorted(names):
+            f.write(f"{name}\n")
+
+
+def load_debater_names(input_path: Path) -> set[str]:
+    """Load debater names from a text file.
+
+    Args:
+        input_path: Path to input text file
+
+    Returns:
+        Set of debater names
+    """
+    with open(input_path, "r", encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
 
 
 def parse_name(full_name: str) -> DebaterName:
@@ -171,8 +197,14 @@ def guess_gender(
     )
 
 
-def load_name_lists() -> tuple[set[str], set[str]]:
+def load_name_lists(
+    male_names_path: Path, female_names_path: Path
+) -> tuple[set[str], set[str]]:
     """Load Czech/English male and female name lists.
+
+    Args:
+        male_names_path: Path to male names file
+        female_names_path: Path to female names file
 
     Returns:
         Tuple of (male_names, female_names)
@@ -180,12 +212,12 @@ def load_name_lists() -> tuple[set[str], set[str]]:
     male_names = set()
     female_names = set()
 
-    if PATH_TO_MALE_NAMES.exists():
-        with open(PATH_TO_MALE_NAMES, "r", encoding="utf-8") as f:
+    if male_names_path.exists():
+        with open(male_names_path, "r", encoding="utf-8") as f:
             male_names = {line.strip().lower() for line in f if line.strip()}
 
-    if PATH_TO_FEMALE_NAMES.exists():
-        with open(PATH_TO_FEMALE_NAMES, "r", encoding="utf-8") as f:
+    if female_names_path.exists():
+        with open(female_names_path, "r", encoding="utf-8") as f:
             female_names = {line.strip().lower() for line in f if line.strip()}
 
     return male_names, female_names
@@ -215,20 +247,43 @@ def save_gender_results(results: list[GenderGuess], output_path: Path) -> None:
             )
 
 
-def main():
-    """Main preprocessing pipeline for gender guessing."""
-    male_names, female_names = load_name_lists()
+def cmd_extract_names(args):
+    """Command to extract debater names from debate CSV."""
+    input_path = Path(args.input)
+    output_path = Path(args.output)
 
-    debater_names = extract_debater_names(PATH_TO_INPUT_CSV)
-    print(f"Extracted {len(debater_names)} unique debater names")
+    print(f"Extracting names from: {input_path}")
+    debater_names = extract_debater_names(input_path)
+    print(f"Found {len(debater_names)} unique debater names")
 
+    save_debater_names(debater_names, output_path)
+    print(f"Saved debater names to: {output_path}")
+
+
+def cmd_analyze(args):
+    """Command to analyze debater names and guess genders."""
+    debater_names_path = Path(args.debater_names_file)
+    male_names_path = Path(args.male_names_file)
+    female_names_path = Path(args.female_names_file)
+    output_path = Path(args.output)
+
+    print(f"Loading debater names from: {debater_names_path}")
+    debater_names = load_debater_names(debater_names_path)
+    print(f"Loaded {len(debater_names)} debater names")
+
+    print("Loading name lists...")
+    male_names, female_names = load_name_lists(male_names_path, female_names_path)
+    print(f"  Male names: {len(male_names)}")
+    print(f"  Female names: {len(female_names)}")
+
+    print("Analyzing genders...")
     results = []
     for name in sorted(debater_names):
         result = guess_gender(name, male_names, female_names)
         results.append(result)
 
-    save_gender_results(results, PATH_TO_GENDER_OUTPUT)
-    print(f"Gender results saved to {PATH_TO_GENDER_OUTPUT}")
+    save_gender_results(results, output_path)
+    print(f"Gender results saved to: {output_path}")
 
     male_count = sum(1 for r in results if r.gender == Gender.MALE)
     female_count = sum(1 for r in results if r.gender == Gender.FEMALE)
@@ -238,6 +293,77 @@ def main():
     print(f"  Male: {male_count}")
     print(f"  Female: {female_count}")
     print(f"  Inconclusive: {inconclusive_count}")
+
+
+def main():
+    """Main CLI entry point."""
+    parser = argparse.ArgumentParser(
+        description="Gender estimation tool for debater names",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+
+    subparsers = parser.add_subparsers(dest="command", help="Available commands")
+
+    # extract-names command
+    extract_parser = subparsers.add_parser(
+        "extract-names", help="Extract debater names from debate CSV"
+    )
+    extract_parser.add_argument(
+        "-i",
+        "--input",
+        type=str,
+        default=str(PATH_TO_INPUT_CSV),
+        help=f"Input CSV file path (default: {PATH_TO_INPUT_CSV})",
+    )
+    extract_parser.add_argument(
+        "-o",
+        "--output",
+        type=str,
+        default=str(PATH_TO_DEBATER_NAMES),
+        help=f"Output text file path (default: {PATH_TO_DEBATER_NAMES})",
+    )
+
+    # analyze command
+    analyze_parser = subparsers.add_parser(
+        "analyze", help="Analyze debater names and guess genders"
+    )
+    analyze_parser.add_argument(
+        "-d",
+        "--debater-names-file",
+        type=str,
+        default=str(PATH_TO_DEBATER_NAMES),
+        help=f"Debater names file path (default: {PATH_TO_DEBATER_NAMES})",
+    )
+    analyze_parser.add_argument(
+        "-m",
+        "--male-names-file",
+        type=str,
+        default=str(PATH_TO_MALE_NAMES),
+        help=f"Male names file path (default: {PATH_TO_MALE_NAMES})",
+    )
+    analyze_parser.add_argument(
+        "-f",
+        "--female-names-file",
+        type=str,
+        default=str(PATH_TO_FEMALE_NAMES),
+        help=f"Female names file path (default: {PATH_TO_FEMALE_NAMES})",
+    )
+    analyze_parser.add_argument(
+        "-o",
+        "--output",
+        type=str,
+        default=str(PATH_TO_GENDER_OUTPUT),
+        help=f"Output CSV file path (default: {PATH_TO_GENDER_OUTPUT})",
+    )
+
+    args = parser.parse_args()
+
+    if args.command == "extract-names":
+        cmd_extract_names(args)
+    elif args.command == "analyze":
+        cmd_analyze(args)
+    else:
+        parser.print_help()
 
 
 if __name__ == "__main__":
