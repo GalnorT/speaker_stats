@@ -18,7 +18,7 @@ class TestParseName:
     def test_multiple_first_names(self):
         result = parse_name("Novák Jakub Karel")
         assert result.last_name == "Novák"
-        assert result.first_name == "Jakub Karel"
+        assert result.first_name == "Jakub"
         assert result.full_name == "Novák Jakub Karel"
 
     def test_single_name_only(self):
@@ -146,6 +146,13 @@ class TestGuessGender:
         result = guess_gender("Nováková Jakub", male_names, female_names)
         assert result.gender == Gender.FEMALE
         assert result.method_used == GenderGuessMethod.LASTNAME_SUFFIX
+
+    def test_multiple_first_names(self):
+        male_names = {"jakub"}
+        female_names = set()
+        result = guess_gender("Novák Jakub Karel", male_names, female_names)
+        assert result.gender == Gender.MALE
+        assert result.method_used == GenderGuessMethod.FIRSTNAME_MATCH
 
     def test_single_name_with_female_suffix(self):
         male_names = set()

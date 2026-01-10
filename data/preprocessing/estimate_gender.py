@@ -78,7 +78,7 @@ def parse_name(full_name: str) -> DebaterName:
 
     if len(parts) >= 2:
         last_name = parts[0]
-        first_name = " ".join(parts[1:])
+        first_name = parts[1]
     else:
         last_name = parts[0] if parts else ""
         first_name = ""
