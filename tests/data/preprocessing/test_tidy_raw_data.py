@@ -2,14 +2,20 @@ from datetime import datetime
 
 import pandas as pd
 
-from data.preprocessing.tidy_raw_data import (DebateTeam, InputCsvColumns,
-                                              JudgeDataKeys, ParsedDebate,
-                                              ParsedSpeaker, Side,
-                                              SpeakerDataKeys, TeamDataKeys,
-                                              debate_to_speeches,
-                                              extract_ballots_from_judges,
-                                              parse_debate_row,
-                                              parse_judges_scoring_string)
+from data.preprocessing.tidy_raw_data import (
+    DebateTeam,
+    InputCsvColumns,
+    JudgeDataKeys,
+    ParsedDebate,
+    ParsedSpeaker,
+    Side,
+    SpeakerDataKeys,
+    TeamDataKeys,
+    debate_to_speeches,
+    extract_ballots_from_judges,
+    parse_debate_row,
+    parse_judges_scoring_string,
+)
 
 
 class TestParseJudgesScoringString:
