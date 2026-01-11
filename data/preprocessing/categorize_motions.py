@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from logger.logger import log_function_call, logger, setup_logging
+from logger.logger import logger, setup_logging
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 PATH_TO_INPUT_CSV = PROJECT_ROOT / "data" / "raw" / "debate_data.csv"
