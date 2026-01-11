@@ -21,6 +21,7 @@ class Side(Enum):
 
 class InputCsvColumns(Enum):
     """Column names in the input CSV file."""
+
     ID = "id"
     DATE = "date"
     TOURNAMENT_ID = "tournament_id"
@@ -32,6 +33,7 @@ class InputCsvColumns(Enum):
 
 class TeamDataKeys(Enum):
     """Keys in the teams JSON data."""
+
     TEAM_NAME = "team_name"
     SIDE = "side"
     SPEAKERS = "speakers"
@@ -39,12 +41,14 @@ class TeamDataKeys(Enum):
 
 class SpeakerDataKeys(Enum):
     """Keys in the speaker data within teams."""
+
     NAME = "name"
     POINTS = "points"
 
 
 class JudgeDataKeys(Enum):
     """Keys in the judges scoring JSON data."""
+
     NAME = "name"
     SIDE = "side"
     SCORE = "score"
@@ -170,18 +174,41 @@ def extract_ballots_from_judges(judges_scoring_str: str) -> dict[str, int] | Non
     ballots_aff = 0
     ballots_neg = 0
 
-    for judge in judges_data:
-        if JudgeDataKeys.SIDE.value not in judge:
-            logger.warning(f"Judge entry missing '{JudgeDataKeys.SIDE.value}': {judge}")
-            continue
+    if len(judges_data) == 1:
+        judge_score = judges_data[0]
+        score = judge_score.get(JudgeDataKeys.SCORE.value, "")
+        winning_side = judge_score.get(JudgeDataKeys.SIDE.value, "").lower()
+        if not score:
+            logger.warning(f"Judge scoring missing 'score': {judges_data[0]}")
+            return None
+        try:
+            winner_score, loser_score = map(int, score.split(":"))
+        except ValueError:
+            logger.warning(f"Invalid score format: {score}")
+            return None
 
-        winning_side = judge[JudgeDataKeys.SIDE.value].lower()
         if winning_side == Side.AFF.value:
-            ballots_aff += 1
+            ballots_aff += winner_score
+            ballots_neg += loser_score
         elif winning_side == Side.NEG.value:
-            ballots_neg += 1
-        else:
-            logger.warning(f"Unknown side in judge decision: {winning_side}")
+            ballots_neg += winner_score
+            ballots_aff += loser_score
+
+    else:
+        for judge in judges_data:
+            if JudgeDataKeys.SIDE.value not in judge:
+                logger.warning(
+                    f"Judge entry missing '{JudgeDataKeys.SIDE.value}': {judge}"
+                )
+                continue
+
+            winning_side = judge[JudgeDataKeys.SIDE.value].lower()
+            if winning_side == Side.AFF.value:
+                ballots_aff += 1
+            elif winning_side == Side.NEG.value:
+                ballots_neg += 1
+            else:
+                logger.warning(f"Unknown side in judge decision: {winning_side}")
 
     return {Side.AFF.value: ballots_aff, Side.NEG.value: ballots_neg}
 
