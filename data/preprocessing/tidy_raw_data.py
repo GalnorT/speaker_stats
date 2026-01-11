@@ -215,6 +215,50 @@ def extract_ballots_from_judges(judges_scoring_str: str) -> dict[str, int] | Non
     return {Side.AFF.value: ballots_aff, Side.NEG.value: ballots_neg}
 
 
+def fix_side_swap_if_needed(
+    aff_team: DebateTeam,
+    neg_team: DebateTeam,
+    ballots_aff: int,
+    ballots_neg: int,
+    debate_id: int,
+) -> tuple[DebateTeam, DebateTeam]:
+    """Fix the scraped data bug where neg winning causes side swap.
+
+    If neg won (ballots_neg > ballots_aff), the scraped data has swapped
+    the speakers between teams. This function detects and corrects that.
+
+    Args:
+        aff_team: Team labeled as aff in scraped data
+        neg_team: Team labeled as neg in scraped data
+        ballots_aff: Ballots for aff side
+        ballots_neg: Ballots for neg side
+        debate_id: Debate ID for logging
+
+    Returns:
+        Tuple of (corrected_aff_team, corrected_neg_team)
+    """
+    # If neg won, speakers are swapped
+    if ballots_neg > ballots_aff:
+        logger.debug(
+            f"Debate {debate_id}: Neg won ({ballots_neg}-{ballots_aff}), fixing speaker swap"
+        )
+        # Swap the speaker lists between teams, but keep team names with their original sides
+        corrected_aff_team = DebateTeam(
+            team_name=aff_team.team_name,
+            side=Side.AFF,
+            speakers=neg_team.speakers,  # Use neg's speakers for aff
+        )
+        corrected_neg_team = DebateTeam(
+            team_name=neg_team.team_name,
+            side=Side.NEG,
+            speakers=aff_team.speakers,  # Use aff's speakers for neg
+        )
+        return corrected_aff_team, corrected_neg_team
+
+    # If aff won or tie, data is correct as-is
+    return aff_team, neg_team
+
+
 def parse_debate_row(row: pd.Series) -> ParsedDebate | None:
     """Parse a single debate row from CSV.
 
@@ -347,6 +391,15 @@ def parse_debate_row(row: pd.Series) -> ParsedDebate | None:
         if aff_team is None or neg_team is None:
             logger.warning(f"Debate {debate_id}: Missing aff or neg team after parsing")
             return None
+
+        # Fix the scraping bug where neg winning causes speaker swap
+        aff_team, neg_team = fix_side_swap_if_needed(
+            aff_team,
+            neg_team,
+            ballots[Side.AFF.value],
+            ballots[Side.NEG.value],
+            debate_id,
+        )
 
         return ParsedDebate(
             debate_id=debate_id,

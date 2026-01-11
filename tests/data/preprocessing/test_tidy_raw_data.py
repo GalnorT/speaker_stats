@@ -2,20 +2,15 @@ from datetime import datetime
 
 import pandas as pd
 
-from data.preprocessing.tidy_raw_data import (
-    DebateTeam,
-    InputCsvColumns,
-    JudgeDataKeys,
-    ParsedDebate,
-    ParsedSpeaker,
-    Side,
-    SpeakerDataKeys,
-    TeamDataKeys,
-    debate_to_speeches,
-    extract_ballots_from_judges,
-    parse_debate_row,
-    parse_judges_scoring_string,
-)
+from data.preprocessing.tidy_raw_data import (DebateTeam, InputCsvColumns,
+                                              JudgeDataKeys, ParsedDebate,
+                                              ParsedSpeaker, Side,
+                                              SpeakerDataKeys, TeamDataKeys,
+                                              debate_to_speeches,
+                                              extract_ballots_from_judges,
+                                              fix_side_swap_if_needed,
+                                              parse_debate_row,
+                                              parse_judges_scoring_string)
 
 
 class TestParseJudgesScoringString:
@@ -225,6 +220,124 @@ class TestExtractBallotsFromJudges:
         assert result is None
 
 
+class TestFixSideSwapIfNeeded:
+    def test_aff_wins_no_swap(self):
+        """When aff wins, speakers should remain as-is."""
+        aff_team = DebateTeam(
+            team_name="Team A",
+            side=Side.AFF,
+            speakers=[
+                ParsedSpeaker(name="Alice", points=75.0, position=1),
+                ParsedSpeaker(name="Bob", points=76.0, position=2),
+            ],
+        )
+        neg_team = DebateTeam(
+            team_name="Team B",
+            side=Side.NEG,
+            speakers=[
+                ParsedSpeaker(name="Dave", points=78.0, position=1),
+                ParsedSpeaker(name="Eve", points=79.0, position=2),
+            ],
+        )
+
+        corrected_aff, corrected_neg = fix_side_swap_if_needed(
+            aff_team, neg_team, ballots_aff=2, ballots_neg=1, debate_id=1
+        )
+
+        # No swap should occur
+        assert corrected_aff.team_name == "Team A"
+        assert corrected_neg.team_name == "Team B"
+        assert corrected_aff.speakers[0].name == "Alice"
+        assert corrected_aff.speakers[1].name == "Bob"
+        assert corrected_neg.speakers[0].name == "Dave"
+        assert corrected_neg.speakers[1].name == "Eve"
+
+    def test_neg_wins_swap_occurs(self):
+        """When neg wins, speakers should be swapped between teams."""
+        aff_team = DebateTeam(
+            team_name="Team A",
+            side=Side.AFF,
+            speakers=[
+                ParsedSpeaker(name="Alice", points=75.0, position=1),
+                ParsedSpeaker(name="Bob", points=76.0, position=2),
+            ],
+        )
+        neg_team = DebateTeam(
+            team_name="Team B",
+            side=Side.NEG,
+            speakers=[
+                ParsedSpeaker(name="Dave", points=78.0, position=1),
+                ParsedSpeaker(name="Eve", points=79.0, position=2),
+            ],
+        )
+
+        corrected_aff, corrected_neg = fix_side_swap_if_needed(
+            aff_team, neg_team, ballots_aff=1, ballots_neg=2, debate_id=1
+        )
+
+        # Speakers should be swapped, but team names stay with their sides
+        assert corrected_aff.team_name == "Team A"
+        assert corrected_neg.team_name == "Team B"
+        assert corrected_aff.speakers[0].name == "Dave"  # neg's speakers moved to aff
+        assert corrected_aff.speakers[1].name == "Eve"
+        assert corrected_neg.speakers[0].name == "Alice"  # aff's speakers moved to neg
+        assert corrected_neg.speakers[1].name == "Bob"
+
+    def test_tie_no_swap(self):
+        """When it's a tie, speakers should remain as-is."""
+        aff_team = DebateTeam(
+            team_name="Team A",
+            side=Side.AFF,
+            speakers=[ParsedSpeaker(name="Alice", points=75.0, position=1)],
+        )
+        neg_team = DebateTeam(
+            team_name="Team B",
+            side=Side.NEG,
+            speakers=[ParsedSpeaker(name="Dave", points=78.0, position=1)],
+        )
+
+        corrected_aff, corrected_neg = fix_side_swap_if_needed(
+            aff_team, neg_team, ballots_aff=1, ballots_neg=1, debate_id=1
+        )
+
+        # No swap should occur
+        assert corrected_aff.speakers[0].name == "Alice"
+        assert corrected_neg.speakers[0].name == "Dave"
+
+    def test_neg_wins_3_0_swap_occurs(self):
+        """When neg wins unanimously, speakers should be swapped."""
+        aff_team = DebateTeam(
+            team_name="Team A",
+            side=Side.AFF,
+            speakers=[
+                ParsedSpeaker(name="Alice", points=75.0, position=1),
+                ParsedSpeaker(name="Bob", points=76.0, position=2),
+                ParsedSpeaker(name="Charlie", points=77.0, position=3),
+            ],
+        )
+        neg_team = DebateTeam(
+            team_name="Team B",
+            side=Side.NEG,
+            speakers=[
+                ParsedSpeaker(name="Dave", points=78.0, position=1),
+                ParsedSpeaker(name="Eve", points=79.0, position=2),
+                ParsedSpeaker(name="Frank", points=80.0, position=3),
+            ],
+        )
+
+        corrected_aff, corrected_neg = fix_side_swap_if_needed(
+            aff_team, neg_team, ballots_aff=0, ballots_neg=3, debate_id=1
+        )
+
+        # All speakers should be swapped
+        assert corrected_aff.speakers[0].name == "Dave"
+        assert corrected_aff.speakers[1].name == "Eve"
+        assert corrected_aff.speakers[2].name == "Frank"
+        assert corrected_neg.speakers[0].name == "Alice"
+        assert corrected_neg.speakers[1].name == "Bob"
+        assert corrected_neg.speakers[2].name == "Charlie"
+
+
 class TestParseDebateRow:
     def test_valid_complete_debate_row(self):
         teams_json = f"""[
@@ -282,7 +395,8 @@ class TestParseDebateRow:
         assert result.ballots_aff == 1
         assert result.ballots_neg == 0
 
-    def test_debate_with_fewer_than_three_speakers(self):
+    def test_debate_with_fewer_than_three_speakers_neg_wins(self):
+        """Test that when neg wins with fewer speakers, the swap is applied."""
         teams_json = f"""[
             {{
                 "{TeamDataKeys.TEAM_NAME.value}": "Team A",
@@ -324,8 +438,13 @@ class TestParseDebateRow:
         result = parse_debate_row(row)
 
         assert result is not None
-        assert len(result.aff_team.speakers) == 2
-        assert len(result.neg_team.speakers) == 1
+        # After swap correction: Team A (aff) should have Dave (originally neg's speaker)
+        # Team B (neg) should have Alice and Bob (originally aff's speakers)
+        assert len(result.aff_team.speakers) == 1
+        assert len(result.neg_team.speakers) == 2
+        assert result.aff_team.speakers[0].name == "Dave"
+        assert result.neg_team.speakers[0].name == "Alice"
+        assert result.neg_team.speakers[1].name == "Bob"
         assert result.ballots_aff == 0
         assert result.ballots_neg == 1
 
