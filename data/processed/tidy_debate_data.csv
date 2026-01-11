@@ -11,6 +11,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10701,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,neg,Martináková Olivie,1,70.0,3,Fretky Alfredky
 10701,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,neg,Fabiánová Stefanie,2,69.0,3,Fretky Alfredky
 10701,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,neg,Minton Zackary Adam,3,68.0,3,Fretky Alfredky
+10702,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,aff,Waldaufová Natálie,1,78.0,0,Cihla
+10702,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,aff,Schmidová Jana,2,79.0,0,Cihla
+10702,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,aff,Kohlík Filip,3,69.0,0,Cihla
+10702,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,neg,Kučera Michal,1,76.0,3,Rohlík
+10702,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,neg,Dočkalová Anna,2,75.0,3,Rohlík
+10702,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,neg,Olša Kryštof,3,80.0,3,Rohlík
 10703,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,aff,Volek Tobiáš,1,78.0,0,Socratův kruh
 10703,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,aff,Růžička Petr,2,69.0,0,Socratův kruh
 10703,2025-01-26 09:31:00,307,Druhý turnaj Debatní ligy 2024/2025,Rozvinuté země by měly kompenzovat rozvojovým zemím škody způsobené klimatickou změnou,aff,Kříž Pavel,3,80.0,0,Socratův kruh
@@ -383,6 +389,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10777,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Rasti Adam,1,72.0,0,MgO Alfy
 10777,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Laštovic Šimon,2,76.0,0,MgO Alfy
 10777,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Šafr Kryštof,3,72.0,0,MgO Alfy
+10778,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,"Heidrová ""Kowalski"" Marie",1,82.0,0,Colloqueens
+10778,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,"Vaňková ""Rico"" Adéla",2,79.0,0,Colloqueens
+10778,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,"Tenglerová ""Skipper"" Nora",3,77.0,0,Colloqueens
+10778,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Tichý Ondřej,1,77.0,3,P. T. S. D.
+10778,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,"Tomášková ""Barbora"" Eva",2,79.0,3,P. T. S. D.
+10778,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Škeříková Eva,3,75.0,3,P. T. S. D.
 10779,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Kučera Michal,1,74.0,2,Konstruktivní chaos
 10779,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Flašar Patrik,2,77.0,2,Konstruktivní chaos
 10779,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Panák Richard,3,77.0,2,Konstruktivní chaos
@@ -407,6 +419,18 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10782,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Čechaček Radim,1,80.0,3,pardon?
 10782,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Tischler Viktoria,2,74.0,3,pardon?
 10782,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Lyčka Teodor,3,66.0,3,pardon?
+10783,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Hon Filip,1,77.0,3,Výprodej akustických kytar
+10783,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Klimša Ondřej,2,78.0,3,Výprodej akustických kytar
+10783,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Šneider Libor,3,82.0,3,Výprodej akustických kytar
+10783,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Petrencová Nikol,1,74.0,0,MgO
+10783,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Schwarzer Ondřej,2,74.0,0,MgO
+10783,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Delongová Noemi,3,73.0,0,MgO
+10784,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Žižka Vojtěch,1,78.0,2,Anti-logika
+10784,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Matula Vojtěch,2,77.0,2,Anti-logika
+10784,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Grambal Jakub,3,74.0,2,Anti-logika
+10784,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Ztratilová Kristýna,1,66.0,1,Vojta²
+10784,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Juránek Prokop,2,74.0,1,Vojta²
+10784,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Drdličko Dominik,3,70.0,1,Vojta²
 10785,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Kraj Filip,1,74.0,3,Fretky Alfredky
 10785,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Pleskot Bivoj Xaver,2,75.0,3,Fretky Alfredky
 10785,2025-03-28 19:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Hubaľová Amelia,3,73.0,3,Fretky Alfredky
@@ -503,12 +527,36 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10800,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Bortlová Lenka,1,70.0,3,Pozor kluzká podlaha!
 10800,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Dostálová Barbora,2,76.0,3,Pozor kluzká podlaha!
 10800,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Foltová Nikol,3,72.0,3,Pozor kluzká podlaha!
+10801,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Dočkalová Anna,1,74.0,0,Rohlík
+10801,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Krejčí Anna,2,76.0,0,Rohlík
+10801,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Rohan Adam,3,73.0,0,Rohlík
+10801,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Braná Sofie,1,73.0,3,Kašpaři
+10801,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Schincke Karolína,2,73.0,3,Kašpaři
+10801,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Kaiser Daniel,3,73.0,3,Kašpaři
+10802,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,"Jemelka ""Pepa"" František",1,78.0,0,Veni vidi vici tuam matrem
+10802,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Šupka Matyáš,2,80.0,0,Veni vidi vici tuam matrem
+10802,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,True Michael George,3,77.0,0,Veni vidi vici tuam matrem
+10802,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Ztratilová Kristýna,1,72.0,3,Anti-logika
+10802,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Drdličko Dominik,2,72.0,3,Anti-logika
+10802,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Juránek Prokop,3,76.0,3,Anti-logika
+10803,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Vargová Veronika,1,76.0,2,gleep glorp
+10803,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Varga Jakub,2,71.0,2,gleep glorp
+10803,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Kos Matouš,3,68.0,2,gleep glorp
+10803,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Bojko David,1,78.0,1,Crepusculum
+10803,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Kohlík Lukáš,2,73.0,1,Crepusculum
+10803,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Novák Viktor,3,72.0,1,Crepusculum
 10804,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Kučera Michal,1,78.0,1,PředRažené MásLo
 10804,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Flašar Patrik,2,79.0,1,PředRažené MásLo
 10804,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Panák Richard,3,78.0,1,PředRažené MásLo
 10804,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Mergentalová Jana,1,76.0,2,HOESenky
 10804,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Kolařík Jan,2,75.0,2,HOESenky
 10804,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Gregovský Matyáš,3,75.0,2,HOESenky
+10805,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Pořízková Ema,1,71.0,2,Ti co ví
+10805,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Tesařová Edita,2,76.0,2,Ti co ví
+10805,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Dobešová Denisa,3,73.0,2,Ti co ví
+10805,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Bulant Martin,1,70.0,1,Ovce ze Spálova
+10805,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Lišková Kateřina,2,72.0,1,Ovce ze Spálova
+10805,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Podroužek Vojtěch,3,74.0,1,Ovce ze Spálova
 10806,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Suchánek Jakub,1,74.0,1,Skoro Moraváci
 10806,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Ikifule Christian,2,73.0,1,Skoro Moraváci
 10806,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Dittrich Jiří,3,79.0,1,Skoro Moraváci
@@ -527,6 +575,18 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10808,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Frydrychová Sofie,1,77.0,0,Finlandia
 10808,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Chiotaki Joanna,2,75.0,0,Finlandia
 10808,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Jirků Viktor,3,74.0,0,Finlandia
+10809,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,"Tomášková ""Barbora"" Eva",1,80.0,0,P. T. S. D.
+10809,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Tichý Ondřej,2,82.0,0,P. T. S. D.
+10809,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Škeříková Eva,3,80.0,0,P. T. S. D.
+10809,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Fabiánová Stefanie,1,75.0,3,Fretky Alfredky
+10809,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Vortel Ondřej,2,72.0,3,Fretky Alfredky
+10809,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Lehner Naomi Eva,3,72.0,3,Fretky Alfredky
+10810,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Jemelka Vojtěch,1,76.0,3,30.Október
+10810,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Olša Kryštof,2,83.0,3,30.Október
+10810,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Malík Marek,3,77.0,3,30.Október
+10810,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Choma Šimon,1,77.0,0,Memoriál D.H.
+10810,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Šima Šimon,2,75.0,0,Memoriál D.H.
+10810,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,neg,Krošláková Simona,3,76.0,0,Memoriál D.H.
 10811,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Rasti Adam,1,81.0,2,Vojta²
 10811,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Laštovic Šimon,2,75.0,2,Vojta²
 10811,2025-03-29 10:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Odklon od tradičních médií přináší více škody než užitku.,aff,Šafr Kryštof,3,85.0,2,Vojta²
@@ -587,6 +647,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10820,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Košárek Jakub,1,74.0,3,META z JP2
 10820,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Bůbela Amélie,2,70.0,3,META z JP2
 10820,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Hubáček Jakub,3,70.0,3,META z JP2
+10821,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Červenková Anna,1,74.0,3,pardon?
+10821,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Belatková Anna,2,78.0,3,pardon?
+10821,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Šmejkal Jakub,3,78.0,3,pardon?
+10821,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Tischler Viktoria,1,73.0,0,Konstruktivní chaos
+10821,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Krejčí Vít,2,69.0,0,Konstruktivní chaos
+10821,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Lyčka Teodor,3,70.0,0,Konstruktivní chaos
 10822,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Rasti Adam,1,76.0,3,The Opavians
 10822,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Laštovic Šimon,2,72.0,3,The Opavians
 10822,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Šafr Kryštof,3,70.0,3,The Opavians
@@ -653,6 +719,18 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10832,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Waldaufová Natálie,1,76.0,3,Cihla
 10832,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Snášel Matěj,2,78.0,3,Cihla
 10832,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Schmidová Jana,3,76.0,3,Cihla
+10833,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Danišová Renáta,1,78.0,2,Horáková a zemědělci
+10833,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Zetek Vít,2,75.0,2,Horáková a zemědělci
+10833,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Chudárek František,3,77.0,2,Horáková a zemědělci
+10833,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Farníková Kateřina,1,78.0,1,"Bít, či nebýt"
+10833,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Požár Yurij,2,76.0,1,"Bít, či nebýt"
+10833,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Domanská Julie,3,77.0,1,"Bít, či nebýt"
+10834,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Bíróczi Anita,1,78.0,3,30.Október
+10834,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Durda Šimon,2,84.0,3,30.Október
+10834,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Matějková Agáta,3,74.0,3,30.Október
+10834,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Choma Šimon,1,78.0,0,Finlandia
+10834,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Šima Šimon,2,77.0,0,Finlandia
+10834,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Krošláková Simona,3,78.0,0,Finlandia
 10835,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Fráňa Petr,1,77.0,1,MgO Alfy
 10835,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Bittnerová Barbora,2,75.0,1,MgO Alfy
 10835,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Havelka Josef,3,75.0,1,MgO Alfy
@@ -695,6 +773,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10841,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Bůžková Tereza,1,73.0,3,Jelitní Squadra
 10841,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Maňáková Julie,2,69.0,3,Jelitní Squadra
 10841,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Koutný Ondřej,3,74.0,3,Jelitní Squadra
+10842,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Suchánek Jakub,1,77.0,0,Skoro Moraváci
+10842,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Ikifule Christian,2,75.0,0,Skoro Moraváci
+10842,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Dittrich Jiří,3,80.0,0,Skoro Moraváci
+10842,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Kos Matouš,1,73.0,3,Crepusculum
+10842,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Varga Jakub,2,72.0,3,Crepusculum
+10842,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Vargová Veronika,3,72.0,3,Crepusculum
 10843,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Hon Filip,1,79.0,0,MgO
 10843,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Klimša Ondřej,2,76.0,0,MgO
 10843,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",aff,Šneider Libor,3,78.0,0,MgO
@@ -713,12 +797,24 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10845,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Kučera Michal,1,80.0,0,Witty kittens
 10845,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Panák Richard,2,76.0,0,Witty kittens
 10845,2025-03-29 14:00:00,310,Třetí turnaj Debatní ligy 2024/2025,"Společenská hnutí bez prominentního vůdce jsou lepší než hnutí, která takového vůdce mají",neg,Flašar Patrik,3,73.0,0,Witty kittens
+10846,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Volek Tobiáš,1,83.0,0,Socratův kruh
+10846,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Macháček Jakub,2,77.0,0,Socratův kruh
+10846,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Kříž Pavel,3,78.0,0,Socratův kruh
+10846,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Kraj Filip,1,75.0,3,Okurky
+10846,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Pleskot Bivoj Xaver,2,76.0,3,Okurky
+10846,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Hubaľová Amelia,3,73.0,3,Okurky
 10847,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Šima Šimon,1,69.0,2,Crepusculum
 10847,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Krošláková Simona,2,65.0,2,Crepusculum
 10847,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Choma Šimon,3,68.0,2,Crepusculum
 10847,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Vargová Veronika,1,67.0,1,30.Október
 10847,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Varga Jakub,2,66.0,1,30.Október
 10847,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Kos Matouš,3,70.0,1,30.Október
+10848,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Košárek Jakub,1,73.0,1,META z JP2
+10848,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Bůbela Amélie,2,75.0,1,META z JP2
+10848,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Hubáček Jakub,3,67.0,1,META z JP2
+10848,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Šmejkal Jakub,1,74.0,2,Konstruktivní chaos
+10848,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Kohlík Lukáš,2,71.0,2,Konstruktivní chaos
+10848,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Železný Šimon,3,68.0,2,Konstruktivní chaos
 10849,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Schmidová Jana,1,68.0,3,Chňapíci
 10849,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Bojko David,2,72.0,3,Chňapíci
 10849,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Novák Viktor,3,70.0,3,Chňapíci
@@ -731,6 +827,18 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10850,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Ľorková  Timea,1,77.0,2,Šlapáci a Šlapky
 10850,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,"Ponížil ""Vojín"" Martin",2,77.0,2,Šlapáci a Šlapky
 10850,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Lebovičová Klaudie,3,77.0,2,Šlapáci a Šlapky
+10851,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Farníková Kateřina,1,81.0,0,Horáková a zemědělci
+10851,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Požár Yurij,2,79.0,0,Horáková a zemědělci
+10851,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Domanská Julie,3,80.0,0,Horáková a zemědělci
+10851,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Marek Matěj,1,76.0,3,Dobrodružný Klement jí kočku
+10851,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Houdek Jonáš,2,75.0,3,Dobrodružný Klement jí kočku
+10851,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Obadal Ondřej,3,76.0,3,Dobrodružný Klement jí kočku
+10852,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Sýkora Karel,1,81.0,0,the ship of thesis
+10852,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Novotný Jan,2,82.0,0,the ship of thesis
+10852,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Bárta Kryštof,3,80.0,0,the ship of thesis
+10852,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Krejčí Anna,1,77.0,3,Rohlík
+10852,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Dočkalová Anna,2,78.0,3,Rohlík
+10852,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Rohan Adam,3,74.0,3,Rohlík
 10853,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,True Michael George,1,78.0,2,Colloqueens
 10853,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,"Jemelka ""Pepa"" František",2,79.0,2,Colloqueens
 10853,2025-03-29 16:10:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Šupka Matyáš,3,78.0,2,Colloqueens
@@ -833,6 +941,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10870,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Pleskot Bivoj Xaver,1,76.0,0,Socratův kruh
 10870,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Kraj Filip,2,68.0,0,Socratův kruh
 10870,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Hubaľová Amelia,3,76.0,0,Socratův kruh
+10871,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Choma Šimon,1,76.0,1,30.Október
+10871,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Šima Šimon,2,75.0,1,30.Október
+10871,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Krošláková Simona,3,76.0,1,30.Október
+10871,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Janků Tomáš,1,79.0,2,Makarony se sýrem
+10871,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Losertová Tereza,2,75.0,2,Makarony se sýrem
+10871,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Moravcová Radmila Terezie,3,74.0,2,Makarony se sýrem
 10873,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Bojko David,1,81.0,1,gleep glorp
 10873,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Bortlová Lenka,2,75.0,1,gleep glorp
 10873,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Novák Viktor,3,77.0,1,gleep glorp
@@ -917,6 +1031,42 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10887,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Kučerová Lucie Charlotte,1,76.0,1,Anti-logika
 10887,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Rulfová Natálie,2,77.0,1,Anti-logika
 10887,2025-03-30 09:00:00,310,Třetí turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Schmidová Jana,3,78.0,1,Anti-logika
+10916,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Petráčková Viktorie Anna,1,80.0,3,Horáková a zemědělci
+10916,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Middleton Daniel,2,81.0,3,Horáková a zemědělci
+10916,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Michalík Lukáš,3,80.0,3,Horáková a zemědělci
+10916,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,Farníková Kateřina,1,79.0,0,The Economist
+10916,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,Požár Yurij,2,76.0,0,The Economist
+10916,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,Domanská Julie,3,77.0,0,The Economist
+10917,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Olša Kryštof,1,82.0,0,G-session
+10917,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Durda Šimon,2,85.0,0,G-session
+10917,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,"Heidrová ""Kowalski"" Marie",3,82.0,0,G-session
+10917,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,"Pozdník ""Pán siesty"" Jan Jaroslav",1,83.0,3,Šlapáci a Šlapky
+10917,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,"Jemelka ""Pepa"" František",2,80.0,3,Šlapáci a Šlapky
+10917,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,"Ponížil ""Vojín"" Martin",3,78.0,3,Šlapáci a Šlapky
+10918,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Prokeš Patrik,1,78.0,0,Máme pravdu
+10918,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Novák Jakub,2,79.0,0,Máme pravdu
+10918,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,aff,Snášel Matěj,3,81.0,0,Máme pravdu
+10918,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,Prokešová Marie,1,77.0,3,Unstable Spejbl
+10918,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,Patócsová Viktorie,2,82.0,3,Unstable Spejbl
+10918,2025-04-25 18:00:00,312,Finálový turnaj Debate League 2024/2025,The European Union should substantially increase its defence capabilities,neg,Long Lý Bao,3,82.0,3,Unstable Spejbl
+10919,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,Olša Kryštof,1,83.0,3,Unstable Spejbl
+10919,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,Durda Šimon,2,85.0,3,Unstable Spejbl
+10919,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,"Heidrová ""Kowalski"" Marie",3,82.0,3,Unstable Spejbl
+10919,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Churý Tomáš,1,79.0,0,G-session
+10919,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Prokešová Marie,2,83.0,0,G-session
+10919,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Long Lý Bao,3,80.0,0,G-session
+10920,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,Petráčková Viktorie Anna,1,81.0,0,The Economist
+10920,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,Erben Oliver,2,86.0,0,The Economist
+10920,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,Michalík Lukáš,3,82.0,0,The Economist
+10920,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Snášel Matěj,1,78.0,3,Máme pravdu
+10920,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Novák Jakub,2,79.0,3,Máme pravdu
+10920,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Prokeš Patrik,3,78.0,3,Máme pravdu
+10921,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,"Pozdník ""Pán siesty"" Jan Jaroslav",1,81.0,1,Šlapáci a Šlapky
+10921,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,"Ponížil ""Vojín"" Martin",2,77.0,1,Šlapáci a Šlapky
+10921,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,aff,Lebovičová Klaudie,3,78.0,1,Šlapáci a Šlapky
+10921,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Požár Yurij,1,76.0,2,Horáková a zemědělci
+10921,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Farníková Kateřina,2,79.0,2,Horáková a zemědělci
+10921,2025-04-26 10:00:00,312,Finálový turnaj Debate League 2024/2025,Depiction of veganism as trendy brings more harm than good,neg,Domanská Julie,3,77.0,2,Horáková a zemědělci
 10922,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Drobná Veronika,1,76.0,0,Manželství pro nikoho
 10922,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Hošek Radislav,2,77.0,0,Manželství pro nikoho
 10922,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Skalková Lucie,3,76.0,0,Manželství pro nikoho
@@ -935,6 +1085,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10924,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Nohejlová Eliška,1,72.0,0,MgO Sigmy
 10924,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Uhrová Isabela,2,71.0,0,MgO Sigmy
 10924,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Ztratilová Kristýna,3,73.0,0,MgO Sigmy
+10925,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Kosička Petr,1,85.0,0,"Jahůdky, květinky a morčátka"
+10925,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Tichá Alena,2,83.0,0,"Jahůdky, květinky a morčátka"
+10925,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Čech Kristián,3,81.0,0,"Jahůdky, květinky a morčátka"
+10925,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Prokešová Marie,1,76.0,3,Unstable Spejbl
+10925,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Churý Tomáš,2,74.0,3,Unstable Spejbl
+10925,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Long Lý Bao,3,75.0,3,Unstable Spejbl
 10926,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Vrána Martin,1,78.0,3,Fretky Alfredky
 10926,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Majer Dominik,2,77.0,3,Fretky Alfredky
 10926,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Pořízková Ema,3,77.0,3,Fretky Alfredky
@@ -1001,6 +1157,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10936,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Koutný Ondřej,1,75.0,0,Ti co ví
 10936,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Hlushko Dzvinka,2,71.0,0,Ti co ví
 10936,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Mergentalová Jana,3,73.0,0,Ti co ví
+10937,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Chovancová Rozálie,1,78.0,3,Horáková a zemědělci
+10937,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Middleton Daniel,2,82.0,3,Horáková a zemědělci
+10937,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Michalík Lukáš,3,79.0,3,Horáková a zemědělci
+10937,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Farníková Kateřina,1,80.0,0,The Economist
+10937,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Požár Yurij,2,78.0,0,The Economist
+10937,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Domanská Julie,3,79.0,0,The Economist
 10938,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Kramář Michael,1,74.0,0,The Opavians
 10938,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Foldyna Tadeáš,2,77.0,0,The Opavians
 10938,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Handlová Barbora,3,72.0,0,The Opavians
@@ -1013,6 +1175,54 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10939,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Foltová Nikol,1,75.0,0,Vojta²
 10939,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Dostálová Barbora,2,76.0,0,Vojta²
 10939,2025-04-26 12:30:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Příleská Eliška,3,75.0,0,Vojta²
+10940,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Danišová Renáta,1,78.0,2,Witty kittens
+10940,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Zetek Vít,2,80.0,2,Witty kittens
+10940,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Chudárek František,3,77.0,2,Witty kittens
+10940,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Weishäupel Kryštof,1,82.0,1,"Bít, či nebýt"
+10940,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Jelínková Tereza,2,77.0,1,"Bít, či nebýt"
+10940,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Krumlová Linda,3,72.0,1,"Bít, či nebýt"
+10941,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Jemelka Vojtěch,1,78.0,3,Valné shromáždění OSN
+10941,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Olša Kryštof,2,86.0,3,Valné shromáždění OSN
+10941,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Malík Marek,3,77.0,3,Valné shromáždění OSN
+10941,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Basista Kryštof,1,79.0,0,Memoriál D.H.
+10941,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Machalová Kristýna,2,79.0,0,Memoriál D.H.
+10941,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Knap Danny,3,77.0,0,Memoriál D.H.
+10942,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Snášel Matěj,1,85.0,0,Máme pravdu
+10942,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Novák Jakub,2,82.0,0,Máme pravdu
+10942,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Prokeš Patrik,3,80.0,0,Máme pravdu
+10942,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,True Michael George,1,76.0,3,Veni vidi vici tuam matrem
+10942,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Šupka Matyáš,2,79.0,3,Veni vidi vici tuam matrem
+10942,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,"Jemelka ""Pepa"" František",3,78.0,3,Veni vidi vici tuam matrem
+10943,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Hon Filip,1,76.0,3,Šlapáci a Šlapky
+10943,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Klimša Ondřej,2,77.0,3,Šlapáci a Šlapky
+10943,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,aff,Šneider Libor,3,79.0,3,Šlapáci a Šlapky
+10943,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,"Ponížil ""Vojín"" Martin",1,76.0,0,MgO
+10943,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,"Pozdník ""Pán siesty"" Jan Jaroslav",2,81.0,0,MgO
+10943,2025-04-26 12:30:00,311,Finálový turnaj Debatní ligy 2024/2025,Pomoc rozvojovým zemím by měla být primárně realizována formou podpory obchodu spíše než přímou podporou,neg,Lebovičová Klaudie,3,76.0,0,MgO
+10944,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,Prokešová Marie,1,78.0,3,Horáková a zemědělci
+10944,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,Long Lý Bao,2,78.0,3,Horáková a zemědělci
+10944,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,Churý Tomáš,3,78.0,3,Horáková a zemědělci
+10944,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Farníková Kateřina,1,77.0,0,Unstable Spejbl
+10944,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Požár Yurij,2,76.0,0,Unstable Spejbl
+10944,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Domanská Julie,3,76.0,0,Unstable Spejbl
+10945,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,Olša Kryštof,1,83.0,0,G-session
+10945,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,Durda Šimon,2,84.0,0,G-session
+10945,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,"Heidrová ""Kowalski"" Marie",3,83.0,0,G-session
+10945,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Snášel Matěj,1,78.0,3,Máme pravdu
+10945,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Prokeš Patrik,2,79.0,3,Máme pravdu
+10945,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Novák Jakub,3,77.0,3,Máme pravdu
+10946,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,"Pozdník ""Pán siesty"" Jan Jaroslav",1,86.0,0,Šlapáci a Šlapky
+10946,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,"Jemelka ""Pepa"" František",2,84.0,0,Šlapáci a Šlapky
+10946,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,aff,"Ponížil ""Vojín"" Martin",3,82.0,0,Šlapáci a Šlapky
+10946,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Petráčková Viktorie Anna,1,81.0,3,The Economist
+10946,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Erben Oliver,2,85.0,3,The Economist
+10946,2025-04-26 14:30:00,312,Finálový turnaj Debate League 2024/2025,The largest asset management firms should be broken up,neg,Michalík Lukáš,3,81.0,3,The Economist
+10947,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Lebovičová Klaudie,1,80.0,2,Veni vidi vici tuam matrem
+10947,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,"Pozdník ""Pán siesty"" Jan Jaroslav",2,81.0,2,Veni vidi vici tuam matrem
+10947,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,"Ponížil ""Vojín"" Martin",3,78.0,2,Veni vidi vici tuam matrem
+10947,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Pokorný Vojtěch,1,80.0,1,Šlapáci a Šlapky
+10947,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,"Jemelka ""Pepa"" František",2,80.0,1,Šlapáci a Šlapky
+10947,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,True Michael George,3,79.0,1,Šlapáci a Šlapky
 10948,2025-04-26 15:30:00,313,Otevřený turnaj při finále 2024/2025,V akademické debatě by měla lidské rozhodčí nahradit umělá inteligence,aff,"Pospíšil  ""Vrtulák"" Vít",1,79.0,0,Chňapíci
 10948,2025-04-26 15:30:00,313,Otevřený turnaj při finále 2024/2025,V akademické debatě by měla lidské rozhodčí nahradit umělá inteligence,aff,Lukeš  Ondřej,2,74.0,0,Chňapíci
 10948,2025-04-26 15:30:00,313,Otevřený turnaj při finále 2024/2025,V akademické debatě by měla lidské rozhodčí nahradit umělá inteligence,aff,Dudla Bohdan,3,77.0,0,Chňapíci
@@ -1109,6 +1319,36 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10963,2025-04-26 15:30:00,313,Otevřený turnaj při finále 2024/2025,V akademické debatě by měla lidské rozhodčí nahradit umělá inteligence,neg,Pleskot Bivoj Xaver,1,79.0,0,the ship of thesis
 10963,2025-04-26 15:30:00,313,Otevřený turnaj při finále 2024/2025,V akademické debatě by měla lidské rozhodčí nahradit umělá inteligence,neg,Chiotaki Joanna,2,79.0,0,the ship of thesis
 10963,2025-04-26 15:30:00,313,Otevřený turnaj při finále 2024/2025,V akademické debatě by měla lidské rozhodčí nahradit umělá inteligence,neg,Jirků Viktor,3,77.0,0,the ship of thesis
+10964,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Prokešová Marie,1,76.0,0,Unstable Spejbl
+10964,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Churý Tomáš,2,78.0,0,Unstable Spejbl
+10964,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Long Lý Bao,3,79.0,0,Unstable Spejbl
+10964,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Jelínková Tereza,1,74.0,3,Witty kittens
+10964,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Weishäupel Kryštof,2,76.0,3,Witty kittens
+10964,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Krumlová Linda,3,74.0,3,Witty kittens
+10965,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Middleton Daniel,1,82.0,0,The Economist
+10965,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Erben Oliver,2,83.0,0,The Economist
+10965,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Michalík Lukáš,3,81.0,0,The Economist
+10965,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Machalová Kristýna,1,76.0,3,Valné shromáždění OSN
+10965,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Basista Kryštof,2,81.0,3,Valné shromáždění OSN
+10965,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Knap Danny,3,80.0,3,Valné shromáždění OSN
+10966,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Olša Kryštof,1,83.0,0,Memoriál D.H.
+10966,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Malík Marek,2,76.0,0,Memoriál D.H.
+10966,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Jemelka Vojtěch,3,74.0,0,Memoriál D.H.
+10966,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Domanská Julie,1,77.0,3,Horáková a zemědělci
+10966,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Farníková Kateřina,2,77.0,3,Horáková a zemědělci
+10966,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Požár Yurij,3,75.0,3,Horáková a zemědělci
+10967,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Kosička Petr,1,79.0,2,"Bít, či nebýt"
+10967,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Tichá Alena,2,81.0,2,"Bít, či nebýt"
+10967,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Čech Kristián,3,81.0,2,"Bít, či nebýt"
+10967,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Danišová Renáta,1,80.0,1,"Jahůdky, květinky a morčátka"
+10967,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Zetek Vít,2,81.0,1,"Jahůdky, květinky a morčátka"
+10967,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Chudárek František,3,79.0,1,"Jahůdky, květinky a morčátka"
+10968,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Hon Filip,1,80.0,1,MgO
+10968,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Klimša Ondřej,2,83.0,1,MgO
+10968,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,aff,Šneider Libor,3,81.0,1,MgO
+10968,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Snášel Matěj,1,80.0,2,Máme pravdu
+10968,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Prokeš Patrik,2,80.0,2,Máme pravdu
+10968,2025-04-26 16:30:00,311,Finálový turnaj Debatní ligy 2024/2025,EU by se měla zaměřit na rozvíjení vztahů s Čínou na úkor vztahů s USA,neg,Novák Jakub,3,82.0,2,Máme pravdu
 10969,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Kučerová Lucie Charlotte,1,72.0,1,Ňuníci
 10969,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Rulfová Natálie,2,76.0,1,Ňuníci
 10969,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Kleinerová Ivana,3,75.0,1,Ňuníci
@@ -1193,24 +1433,90 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10982,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Foltová Nikol,1,77.0,2,Pozor kluzká podlaha!
 10982,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Dostálová Barbora,2,77.0,2,Pozor kluzká podlaha!
 10982,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Příleská Eliška,3,79.0,2,Pozor kluzká podlaha!
+10983,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Grambal Jakub,1,78.0,0,Vojta²
+10983,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Stachovská Zuzana,2,82.0,0,Vojta²
+10983,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Žižka Vojtěch,3,74.0,0,Vojta²
+10983,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Juránek Prokop,1,75.0,3,Johan Vepřový
+10983,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Luňáček Jan,2,76.0,3,Johan Vepřový
+10983,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Drdličko Dominik,3,76.0,3,Johan Vepřový
 10984,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Kramář Michael,1,76.0,0,The Opavians
 10984,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Foldyna Tadeáš,2,76.0,0,The Opavians
 10984,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,aff,Handlová Barbora,3,75.0,0,The Opavians
 10984,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Drobná Veronika,1,72.0,3,Manželství pro nikoho
 10984,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Dlabáček Jan,2,72.0,3,Manželství pro nikoho
 10984,2025-04-27 10:00:00,313,Otevřený turnaj při finále 2024/2025,Jako environmentální hnutí bychom měli používat ekoterorismus k dosažení svých cílů,neg,Hošek Radislav,3,74.0,3,Manželství pro nikoho
+10985,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Prokeš Patrik,1,80.0,0,Máme pravdu
+10985,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Novák Jakub,2,78.0,0,Máme pravdu
+10985,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Snášel Matěj,3,77.0,0,Máme pravdu
+10985,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Ľorková  Timea,1,78.0,3,Šlapáci a Šlapky
+10985,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,"Pozdník ""Pán siesty"" Jan Jaroslav",2,79.0,3,Šlapáci a Šlapky
+10985,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,"Ponížil ""Vojín"" Martin",3,78.0,3,Šlapáci a Šlapky
+10986,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Middleton Daniel,1,81.0,0,The Economist
+10986,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Erben Oliver,2,83.0,0,The Economist
+10986,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Michalík Lukáš,3,83.0,0,The Economist
+10986,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Jemelka Vojtěch,1,78.0,3,Memoriál D.H.
+10986,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Olša Kryštof,2,80.0,3,Memoriál D.H.
+10986,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Malík Marek,3,76.0,3,Memoriál D.H.
+10987,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Tichá Alena,1,85.0,3,Witty kittens
+10987,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Kosička Petr,2,84.0,3,Witty kittens
+10987,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Čech Kristián,3,84.0,3,Witty kittens
+10987,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Weishäupel Kryštof,1,78.0,0,"Jahůdky, květinky a morčátka"
+10987,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Jelínková Tereza,2,77.0,0,"Jahůdky, květinky a morčátka"
+10987,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Freyová Adéla,3,74.0,0,"Jahůdky, květinky a morčátka"
+10988,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Basista Kryštof,1,80.0,0,Valné shromáždění OSN
+10988,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Machalová Kristýna,2,78.0,0,Valné shromáždění OSN
+10988,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Knap Danny,3,80.0,0,Valné shromáždění OSN
+10988,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Domanská Julie,1,77.0,3,Horáková a zemědělci
+10988,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Farníková Kateřina,2,78.0,3,Horáková a zemědělci
+10988,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Požár Yurij,3,76.0,3,Horáková a zemědělci
+10989,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Hon Filip,1,81.0,0,MgO
+10989,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Klimša Ondřej,2,78.0,0,MgO
+10989,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Šneider Libor,3,82.0,0,MgO
+10989,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Pokorný Vojtěch,1,80.0,3,Veni vidi vici tuam matrem
+10989,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Šupka Matyáš,2,81.0,3,Veni vidi vici tuam matrem
+10989,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,True Michael George,3,78.0,3,Veni vidi vici tuam matrem
+10990,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Patócsová Viktorie,1,83.0,1,Unstable Spejbl
+10990,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Prokešová Marie,2,78.0,1,Unstable Spejbl
+10990,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,aff,Long Lý Bao,3,79.0,1,Unstable Spejbl
+10990,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Danišová Renáta,1,79.0,2,"Bít, či nebýt"
+10990,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Zetek Vít,2,80.0,2,"Bít, či nebýt"
+10990,2025-04-27 10:00:00,311,Finálový turnaj Debatní ligy 2024/2025,Jako Petr Fiala bychom přijali tuto nabídku,neg,Chudárek František,3,79.0,2,"Bít, či nebýt"
 10991,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Rasti Adam,1,81.0,0,TOPTEAM09 Jsme tu úmyslně
 10991,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Laštovic Šimon,2,82.0,0,TOPTEAM09 Jsme tu úmyslně
 10991,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Šafr Kryštof,3,91.0,0,TOPTEAM09 Jsme tu úmyslně
 10991,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Drobná Veronika,1,72.0,3,Manželství pro nikoho
 10991,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Dlabáček Jan,2,74.0,3,Manželství pro nikoho
 10991,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Skalková Lucie,3,73.0,3,Manželství pro nikoho
+10992,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,"Bednářová ""Bedna"" Tereza",1,79.0,2,Unstable Spejbl
+10992,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,"Pozdník ""Pán siesty"" Jan Jaroslav",2,82.0,2,Unstable Spejbl
+10992,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,"Jemelka ""Pepa"" František",3,83.0,2,Unstable Spejbl
+10992,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Patócsová Viktorie,1,82.0,1,Šlapáci a Šlapky
+10992,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Prokešová Marie,2,79.0,1,Šlapáci a Šlapky
+10992,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Long Lý Bao,3,84.0,1,Šlapáci a Šlapky
+10993,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,Prokeš Patrik,1,81.0,0,Máme pravdu
+10993,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,Novák Jakub,2,82.0,0,Máme pravdu
+10993,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,Snášel Matěj,3,82.0,0,Máme pravdu
+10993,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Požár Yurij,1,77.0,3,Horáková a zemědělci
+10993,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Farníková Kateřina,2,76.0,3,Horáková a zemědělci
+10993,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Domanská Julie,3,74.0,3,Horáková a zemědělci
+10994,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,Middleton Daniel,1,83.0,1,The Economist
+10994,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,Erben Oliver,2,79.0,1,The Economist
+10994,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,aff,Michalík Lukáš,3,80.0,1,The Economist
+10994,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Olša Kryštof,1,79.0,2,G-session
+10994,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,Durda Šimon,2,79.0,2,G-session
+10994,2025-04-27 13:00:00,312,Finálový turnaj Debate League 2024/2025,Former colonial powers should return objects of cultural or historical significance to their places of origin,neg,"Heidrová ""Kowalski"" Marie",3,80.0,2,G-session
 10995,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Halaška Lukáš,1,73.0,3,Výprodej akustických kytar
 10995,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Vratný Patrik,2,70.0,3,Výprodej akustických kytar
 10995,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Ševčík Marek,3,73.0,3,Výprodej akustických kytar
 10995,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Petrencová Nikol,1,73.0,0,gleep glorp
 10995,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Frinta Daniel,2,71.0,0,gleep glorp
 10995,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Delongová Noemi,3,70.0,0,gleep glorp
+10996,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Syptáková Helena,1,71.0,0,Argumentační dno
+10996,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Huvar Olly,2,72.0,0,Argumentační dno
+10996,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Vykopalová Barbora,3,69.0,0,Argumentační dno
+10996,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Nohejlová Eliška,1,69.0,3,Ballerina Cappuccina
+10996,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Uhrová Isabela,2,64.0,3,Ballerina Cappuccina
+10996,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Ztratilová Kristýna,3,65.0,3,Ballerina Cappuccina
 10997,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Kramář Michael,1,74.0,3,Vojta²
 10997,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Foldyna Tadeáš,2,80.0,3,Vojta²
 10997,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Handlová Barbora,3,74.0,3,Vojta²
@@ -1229,6 +1535,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 10999,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Škorpilová Kateřina,1,81.0,2,Cihla
 10999,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Waldaufová Natálie,2,78.0,2,Cihla
 10999,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Schmidová Jana,3,80.0,2,Cihla
+11000,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Pleskot Bivoj Xaver,1,76.0,0,Kiss
+11000,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Hladík Jáchym,2,75.0,0,Kiss
+11000,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Jirků Viktor,3,75.0,0,Kiss
+11000,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Minton Zackary Adam,1,72.0,3,Fretky Alfredky
+11000,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Fabiánová Stefanie,2,74.0,3,Fretky Alfredky
+11000,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Lehner Naomi Eva,3,54.0,3,Fretky Alfredky
 11001,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Hlushko Dzvinka,1,78.0,3,Dialektická mafie
 11001,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Mergentalová Jana,2,86.0,3,Dialektická mafie
 11001,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Koutný Ondřej,3,84.0,3,Dialektická mafie
@@ -1271,6 +1583,18 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11007,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Vrána Martin,1,72.0,0,the ship of thesis
 11007,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Tesařová Edita,2,71.0,0,the ship of thesis
 11007,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Pořízková Ema,3,70.0,0,the ship of thesis
+11008,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Belatková Anna,1,77.0,0,Konstruktivní chaos
+11008,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Šmejkal Jakub,2,73.0,0,Konstruktivní chaos
+11008,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Kohlík Lukáš,3,72.0,0,Konstruktivní chaos
+11008,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Houdek Jonáš,1,75.0,3,Dobrodružný Klement jí kočku
+11008,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Marek Matěj,2,76.0,3,Dobrodružný Klement jí kočku
+11008,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Obadal Ondřej,3,72.0,3,Dobrodružný Klement jí kočku
+11009,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Horniková Markéta,1,72.0,0,HOESenky
+11009,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Koutníková Valerie,2,71.0,0,HOESenky
+11009,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,aff,Kolařík Jan,3,63.0,0,HOESenky
+11009,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Bortlová Lenka,1,50.0,3,Pozor kluzká podlaha!
+11009,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Dostálová Barbora,2,50.0,3,Pozor kluzká podlaha!
+11009,2025-04-27 13:00:00,313,Otevřený turnaj při finále 2024/2025,Je v zájmu ČR co nejdříve přijmout euro,neg,Foltová Nikol,3,50.0,3,Pozor kluzká podlaha!
 11016,2025-05-13 09:15:00,314,Stojanův pohár 2025,Každý občan žijící pod totalitním režimem má morální povinnost proti režimu aktivně bojovat.,aff,Zemanová Natalie,1,71.0,3,Mágové
 11016,2025-05-13 09:15:00,314,Stojanův pohár 2025,Každý občan žijící pod totalitním režimem má morální povinnost proti režimu aktivně bojovat.,aff,Černá Gabriela,2,68.0,3,Mágové
 11016,2025-05-13 09:15:00,314,Stojanův pohár 2025,Každý občan žijící pod totalitním režimem má morální povinnost proti režimu aktivně bojovat.,aff,Pavlíková Veronika,3,70.0,3,Mágové
@@ -1427,12 +1751,35 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11047,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,neg,Waldaufová Natálie,1,74.0,0,Louboutins
 11047,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,neg,Tischler Viktoria,2,70.0,0,Louboutins
 11047,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,neg,Schmidová Jana,3,73.0,0,Louboutins
+11048,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,aff,Drdličko Dominik,1,71.0,2,Institut Václava Klause
+11048,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,aff,Nohejlová Eliška,2,74.0,2,Institut Václava Klause
+11048,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,aff,Kroupová Emma,3,66.0,2,Institut Václava Klause
+11048,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,neg,Fráňa Petr,1,76.0,1,Jambo
+11048,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,neg,Těhan Tadeáš,2,70.0,1,Jambo
+11048,2025-06-15 09:00:00,315,Otevřený turnaj MoRS Ostrava,Dětství je lepší fáze života než dospělost.,neg,Procházka Adam,3,72.0,1,Jambo
+11051,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Novák František,1,72.0,3,Mix Wigym
+11051,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Morozova Yuliia,2,74.0,3,Mix Wigym
+11051,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Podroužek Vojtěch,3,72.0,3,Mix Wigym
+11051,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Raif Matěj,1,71.0,0,Ti co ví
+11051,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Hrazdílek Jan,2,71.0,0,Ti co ví
+11051,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Slezáková Tereza,3,70.0,0,Ti co ví
+11052,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Matula Vojtěch,1,76.0,1,Louboutins
+11052,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Stachovská Zuzana,2,78.0,1,Louboutins
+11052,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Handlová Barbora,3,70.0,1,Louboutins
+11052,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Fráňa Petr,1,75.0,2,Institut Václava Klause
+11052,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Procházka Adam,2,77.0,2,Institut Václava Klause
+11052,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Těhan Tadeáš,3,74.0,2,Institut Václava Klause
 11053,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Ztratilová Kristýna,1,73.0,3,Jambo
 11053,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Churý Tomáš,2,75.0,3,Jambo
 11053,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,aff,Juránek Prokop,3,77.0,3,Jambo
 11053,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Drdličko Dominik,1,70.0,0,Bonjour
 11053,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Nohejlová Eliška,2,67.0,0,Bonjour
 11053,2025-06-15 14:30:00,315,Otevřený turnaj MoRS Ostrava,Lidé by se se svými problémy měli obracet na AI spíše než na reálné lidi.,neg,Kroupová Emma,3,65.0,0,Bonjour
+11054,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",aff,Churý Tomáš,2,78.0,0,Bonjour
+11054,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",aff,Ztratilová Kristýna,3,70.0,0,Bonjour
+11054,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",neg,Matula Vojtěch,1,73.0,3,Louboutins
+11054,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",neg,Stachovská Zuzana,2,70.0,3,Louboutins
+11054,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",neg,Handlová Barbora,3,70.0,3,Louboutins
 11055,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",aff,Tischler Viktoria,1,73.0,3,Ti co ví
 11055,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",aff,Waldaufová Natálie,2,77.0,3,Ti co ví
 11055,2025-06-15 17:15:00,315,Otevřený turnaj MoRS Ostrava,"Je lepší žít v chudém, ale demokratickém státě než v bohatém státě s diktaturou",aff,Schmidová Jana,3,77.0,3,Ti co ví
@@ -1565,6 +1912,18 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11108,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Stachovská Zuzana,1,78.0,3,The Opavians
 11108,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,"Heidrová ""Kowalski"" Marie",2,83.0,3,The Opavians
 11108,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Handlová Barbora,3,82.0,3,The Opavians
+11109,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Waldaufová Natálie,1,77.0,0,Cihla
+11109,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Schmidová Jana,2,73.0,0,Cihla
+11109,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Pokorný Jan,3,70.0,0,Cihla
+11109,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Groda Michal,1,71.0,3,Die Wassermelone
+11109,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Holíková Šárka,2,70.0,3,Die Wassermelone
+11109,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Sedláček Petr,3,69.0,3,Die Wassermelone
+11110,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Kauzak Diana,1,69.0,2,The Boilers
+11110,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Pleskot Bivoj Xaver,2,67.0,2,The Boilers
+11110,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Jirků Viktor,3,73.0,2,The Boilers
+11110,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Blatná Adéla,1,68.0,1,Kiss
+11110,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Kolařík Jan,2,65.0,1,Kiss
+11110,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Koutný Tomáš,3,63.0,1,Kiss
 11111,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Špaček Martin,1,75.0,2,Quis interrogabat?
 11111,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Chiotaki Joanna,2,78.0,2,Quis interrogabat?
 11111,2025-10-17 19:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Volková Johana,3,78.0,2,Quis interrogabat?
@@ -1649,6 +2008,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11124,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Novotná Adéla,1,72.0,3,Rhetorical Kittens
 11124,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Moravcová Alena,2,70.0,3,Rhetorical Kittens
 11124,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Lobazova Solomiia,3,69.0,3,Rhetorical Kittens
+11125,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Harašta Matěj,1,80.0,3,Kiss
+11125,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Olša Kryštof,2,83.0,3,Kiss
+11125,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Šneider Libor,3,80.0,3,Kiss
+11125,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Pleskot Bivoj Xaver,1,78.0,0,Memoriál D.H.
+11125,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Kauzak Diana,2,75.0,0,Memoriál D.H.
+11125,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,neg,Jirků Viktor,3,76.0,0,Memoriál D.H.
 11126,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Zgabaj Tobiáš,1,78.0,0,Argumentační dno
 11126,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Huvar Olly,2,74.0,0,Argumentační dno
 11126,2025-10-18 09:00:00,317,První turnaj Debate League 2025/2026,The proposed EU Chat control regulation would bring more harm than good,aff,Jurčová Zuzana,3,75.0,0,Argumentační dno
@@ -1817,6 +2182,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11153,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,neg,Groda Michal,1,72.0,0,Kašpaři
 11153,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,neg,Holíková Šárka,2,71.0,0,Kašpaři
 11153,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,neg,Sedláček Petr,3,67.0,0,Kašpaři
+11154,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,aff,Prokeš Patrik,1,79.0,3,Rhetorical Kittens
+11154,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,aff,Novák Jakub,2,80.0,3,Rhetorical Kittens
+11154,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,aff,Snášel Matěj,3,81.0,3,Rhetorical Kittens
+11154,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,neg,Novotná Adéla,1,73.0,0,Máme pravdu
+11154,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,neg,Moravcová Alena,2,75.0,0,Máme pravdu
+11154,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,neg,Lobazova Solomiia,3,73.0,0,Máme pravdu
 11155,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,aff,Middleton Daniel,1,81.0,0,The Economist
 11155,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,aff,Erben Oliver,2,85.0,0,The Economist
 11155,2025-10-19 09:00:00,317,První turnaj Debate League 2025/2026,The narrative that hard work will lead to success brings more harm than good ,aff,Michalík Lukáš,3,83.0,0,The Economist
@@ -1967,6 +2338,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11192,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Zámečník Jiří,1,62.0,0,Dodáme do středy
 11192,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Janíková Tereza,2,73.0,0,Dodáme do středy
 11192,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,"Pham ""Helena"" Huyen Trang",3,73.0,0,Dodáme do středy
+11193,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Požár Yurij,1,76.0,0,Horáková a zemědělci
+11193,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Domanská Julie,2,76.0,0,Horáková a zemědělci
+11193,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Fryčová Lucie,3,73.0,0,Horáková a zemědělci
+11193,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Dvořáková Anežka,1,65.0,3,Boom Shack-A-Lak
+11193,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Kvapilová Petra,2,65.0,3,Boom Shack-A-Lak
+11193,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Havranová Adéla,3,66.0,3,Boom Shack-A-Lak
 11194,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Prchalová Ema,1,73.0,3,Spajzi GYRA
 11194,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Mandíková Anna,2,75.0,3,Spajzi GYRA
 11194,2025-11-07 18:30:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Kaleta David,3,72.0,3,Spajzi GYRA
@@ -2093,6 +2470,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11214,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Matečková Karolina,1,76.0,3,The MACHO MEN!!!
 11214,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Halfarová Evelyn,2,76.0,3,The MACHO MEN!!!
 11214,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Haplová Barbora,3,74.0,3,The MACHO MEN!!!
+11215,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Waldaufová Natálie,1,77.0,0,Cihla
+11215,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Škorpilová Kateřina,2,78.0,0,Cihla
+11215,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Schmidová Jana,3,78.0,0,Cihla
+11215,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Radoňová Sofie,1,76.0,3,No comment
+11215,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Hladík Jáchym,2,78.0,3,No comment
+11215,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",neg,Volková Barbora,3,73.0,3,No comment
 11216,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Petrovská Barbora,1,80.0,0,TBH
 11216,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Marešová Hana,2,76.0,0,TBH
 11216,2025-11-08 09:00:00,318,První turnaj Debatní ligy 2025/2026,"Výchova, ve které má dítě velkou míru autonomie, je lepší než výchova, při níž rozhodují rodiče",aff,Kúdela Tomáš,3,76.0,0,TBH
@@ -2243,6 +2626,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11240,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,neg,Tischler Viktoria,1,72.0,1,Pozor kluzká podlaha!
 11240,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,neg,Martinák Ondřej,2,76.0,1,Pozor kluzká podlaha!
 11240,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,neg,Tranová Lily,3,68.0,1,Pozor kluzká podlaha!
+11241,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,aff,Pastuchová Jana,1,72.0,0,Výprodej akustických kytar
+11241,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,aff,Petrencová Nikol,2,77.0,0,Výprodej akustických kytar
+11241,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,aff,Delongová Noemi,3,74.0,0,Výprodej akustických kytar
+11241,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,neg,Fiedlerová Anna Marie,1,63.0,3,Amazon
+11241,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,neg,Folwarczna Eva,2,66.0,3,Amazon
+11241,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,neg,Etchegoyen Sofia,3,67.0,3,Amazon
 11242,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,aff,Bíróczi Anita,1,75.0,3,SpeakUp!
 11242,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,aff,Jedlička Jiří Kryštof,2,72.0,3,SpeakUp!
 11242,2025-11-08 16:00:00,318,První turnaj Debatní ligy 2025/2026,E-sport by se měl stát olympijskou disciplínou,aff,Ševčík Marek,3,73.0,3,SpeakUp!
@@ -2369,6 +2758,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11262,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Churý Tomáš,1,77.0,1,The Opavians
 11262,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Wellartová Vivien Fay,2,69.0,1,The Opavians
 11262,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Juránek Prokop,3,78.0,1,The Opavians
+11263,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,aff,Hon Filip,1,80.0,0,MgO
+11263,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,aff,Havelka Josef,2,77.0,0,MgO
+11263,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,aff,Šneider Libor,3,79.0,0,MgO
+11263,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Fryčová Lucie,1,77.0,3,Horáková a zemědělci
+11263,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Požár Yurij,2,79.0,3,Horáková a zemědělci
+11263,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Domanská Julie,3,77.0,3,Horáková a zemědělci
 11264,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,aff,Waldaufová Natálie,1,81.0,0,Cihla
 11264,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,aff,Škorpilová Kateřina,2,82.0,0,Cihla
 11264,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,aff,Schmidová Jana,3,80.0,0,Cihla
@@ -2525,6 +2920,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11289,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Jaška Petr,1,68.0,0,Boom Shack-A-Lak
 11289,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Michálková Magdaléna,2,72.0,0,Boom Shack-A-Lak
 11289,2025-11-09 10:00:00,318,První turnaj Debatní ligy 2025/2026,SŠ by měly aktivně podporovat využívání umělé inteligence ve výuce,neg,Blahutová Anna Marie,3,73.0,0,Boom Shack-A-Lak
+11298,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Šmejkal Jakub,1,73.0,0,sustainbro.cz
+11298,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Novák Jakub,2,82.0,0,sustainbro.cz
+11298,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Čech Kristián,3,86.0,0,sustainbro.cz
+11298,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Petrencová Nikol,1,76.0,3,TOPTEAM09 Jsme tu úmyslně
+11298,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Laštovic Šimon,2,73.0,3,TOPTEAM09 Jsme tu úmyslně
+11298,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Šafr Kryštof,3,78.0,3,TOPTEAM09 Jsme tu úmyslně
 11299,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Marek Matěj,1,79.0,2,Los Debateros
 11299,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Houdek Jonáš,2,80.0,2,Los Debateros
 11299,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Izdný Vít,3,74.0,2,Los Debateros
@@ -2543,6 +2944,30 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11301,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Macháček Jakub,1,71.0,3,Bob
 11301,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Růžička Petr,2,75.0,3,Bob
 11301,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Úrichová Julie,3,70.0,3,Bob
+11302,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Fabiánová Stefanie,1,74.0,0,Strana explicitně-konzistentních debatérů
+11302,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Honců James Warren,2,74.0,0,Strana explicitně-konzistentních debatérů
+11302,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Martinák Ondřej,3,77.0,0,Strana explicitně-konzistentních debatérů
+11302,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Rygálová Hana,1,71.0,3,AGmix
+11302,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Daňková Veronika,2,69.0,3,AGmix
+11302,2025-11-28 18:30:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Havranová Adéla,3,68.0,3,AGmix
+11303,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Novák Jakub,1,81.0,3,Dobrodružný Klement jí kočku
+11303,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Šmejkal Jakub,2,79.0,3,Dobrodružný Klement jí kočku
+11303,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Čech Kristián,3,81.0,3,Dobrodružný Klement jí kočku
+11303,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Houdek Jonáš,1,79.0,0,sustainbro.cz
+11303,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Izdný Vít,2,75.0,0,sustainbro.cz
+11303,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Marek Matěj,3,78.0,0,sustainbro.cz
+11304,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Danišová Renáta,1,79.0,0,"Bít, či nebýt"
+11304,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Zetek Vít,2,80.0,0,"Bít, či nebýt"
+11304,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Chudárek František,3,81.0,0,"Bít, či nebýt"
+11304,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Honců James Warren,1,74.0,3,Strana explicitně-konzistentních debatérů
+11304,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Fabiánová Stefanie,2,73.0,3,Strana explicitně-konzistentních debatérů
+11304,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Pavlíková Veronika,3,72.0,3,Strana explicitně-konzistentních debatérů
+11305,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Waldaufová Natálie,1,78.0,3,TOPTEAM09 Jsme tu úmyslně
+11305,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Pokorný Jan,2,75.0,3,TOPTEAM09 Jsme tu úmyslně
+11305,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Schmidová Jana,3,78.0,3,TOPTEAM09 Jsme tu úmyslně
+11305,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Laštovic Šimon,1,77.0,0,Cihla
+11305,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Petrencová Nikol,2,76.0,0,Cihla
+11305,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,neg,Šafr Kryštof,3,74.0,0,Cihla
 11306,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Macháček Jakub,1,75.0,0,Bob
 11306,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Fryčová Lucie,2,69.0,0,Bob
 11306,2025-11-29 12:45:00,319,Otevřený turnaj podle nových pravidel,Systém stálého členství v Radě bezpečnosti OSN by měl být zrušen,aff,Růžička Petr,3,71.0,0,Bob
@@ -2561,18 +2986,48 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11308,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Novák Jakub,1,77.0,3,sustainbro.cz
 11308,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Šmejkal Jakub,2,75.0,3,sustainbro.cz
 11308,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Čech Kristián,3,76.0,3,sustainbro.cz
+11309,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Izdný Vít,1,78.0,3,Cihla
+11309,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Houdek Jonáš,2,80.0,3,Cihla
+11309,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Marek Matěj,3,76.0,3,Cihla
+11309,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Waldaufová Natálie,1,77.0,0,Dobrodružný Klement jí kočku
+11309,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Schmidová Jana,2,76.0,0,Dobrodružný Klement jí kočku
+11309,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Pokorný Jan,3,75.0,0,Dobrodružný Klement jí kočku
 11310,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Fabiánová Stefanie,1,76.0,0,Strana explicitně-konzistentních debatérů
 11310,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Honců James Warren,2,73.0,0,Strana explicitně-konzistentních debatérů
 11310,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Martinák Ondřej,3,76.0,0,Strana explicitně-konzistentních debatérů
 11310,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Vrbová Lucie,1,72.0,3,Los Debateros
 11310,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Vortel Ondřej,2,71.0,3,Los Debateros
 11310,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Lehner Naomi Eva,3,76.0,3,Los Debateros
+11311,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Hubáček Jakub,1,76.0,0,AGmix
+11311,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Rygálová Hana,2,77.0,0,AGmix
+11311,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Havranová Adéla,3,72.0,0,AGmix
+11311,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Fryčová Lucie,1,73.0,3,Bob
+11311,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Macháček Jakub,2,73.0,3,Bob
+11311,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Růžička Petr,3,70.0,3,Bob
+11312,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Petrencová Nikol,1,77.0,3,Chatons et soleils
+11312,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Laštovic Šimon,2,76.0,3,Chatons et soleils
+11312,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",aff,Šafr Kryštof,3,71.0,3,Chatons et soleils
+11312,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Bůžková Tereza,1,73.0,0,TOPTEAM09 Jsme tu úmyslně
+11312,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Úrichová Julie,2,69.0,0,TOPTEAM09 Jsme tu úmyslně
+11312,2025-11-29 15:45:00,319,Otevřený turnaj podle nových pravidel,"Svět, ve kterém všichni interpretují náboženství sami, je lepší než svět, ve kterém je náboženství interpretováno církví",neg,Kadlec Tomáš,3,75.0,0,TOPTEAM09 Jsme tu úmyslně
+11313,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Danišová Renáta,1,83.0,3,Dobrodružný Klement jí kočku
+11313,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Zetek Vít,2,81.0,3,Dobrodružný Klement jí kočku
+11313,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Chudárek František,3,83.0,3,Dobrodružný Klement jí kočku
+11313,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Houdek Jonáš,1,81.0,0,"Bít, či nebýt"
+11313,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Marek Matěj,2,82.0,0,"Bít, či nebýt"
+11313,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Izdný Vít,3,75.0,0,"Bít, či nebýt"
 11314,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Daňková Veronika,1,74.0,2,sustainbro.cz
 11314,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Rygálová Hana,2,77.0,2,sustainbro.cz
 11314,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Havranová Adéla,3,73.0,2,sustainbro.cz
 11314,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Šmejkal Jakub,1,76.0,0,AGmix
 11314,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Novák Jakub,2,78.0,0,AGmix
 11314,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Čech Kristián,3,80.0,0,AGmix
+11315,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Schmidová Jana,1,77.0,3,Strana explicitně-konzistentních debatérů
+11315,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Waldaufová Natálie,2,78.0,3,Strana explicitně-konzistentních debatérů
+11315,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Pokorný Jan,3,80.0,3,Strana explicitně-konzistentních debatérů
+11315,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Honců James Warren,1,74.0,0,Cihla
+11315,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Fabiánová Stefanie,2,75.0,0,Cihla
+11315,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",neg,Martinák Ondřej,3,78.0,0,Cihla
 11316,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Úrichová Julie,1,67.0,3,Los Debateros
 11316,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Bůžková Tereza,2,65.0,3,Los Debateros
 11316,2025-11-30 10:00:00,319,Otevřený turnaj podle nových pravidel,"Raději bychom pracovali v dobře placené profesi a většinu svého platu darovali na charitu, než abychom pracovali přímo pro charitu za nižší mzdu.",aff,Škuntová Samantha,3,70.0,3,Los Debateros
@@ -2597,6 +3052,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11324,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Petrovská Barbora,1,75.0,0,Cihla
 11324,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Silárszká Justýna,2,73.0,0,Cihla
 11324,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Dvořáková Marcela,3,72.0,0,Cihla
+11325,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Vrbová Lucie,1,72.0,1,Los Debateros
+11325,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Hudeček Matylda,2,77.0,1,Los Debateros
+11325,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Lehner Naomi Eva,3,76.0,1,Los Debateros
+11325,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Kamasová Karolína,1,75.0,2,Necháme to na osudu
+11325,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Janíková Tereza,2,70.0,2,Necháme to na osudu
+11325,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Jurčová Zuzana,3,68.0,2,Necháme to na osudu
 11326,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,"Jemelka ""Pepa"" František",1,84.0,0,Luďkovi rytíři
 11326,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Ikifule Christian,2,69.0,0,Luďkovi rytíři
 11326,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Suchánek Jakub,3,73.0,0,Luďkovi rytíři
@@ -2615,6 +3076,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11328,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Berka Jakub,1,73.0,0,Bonjour
 11328,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Sedláček Adam,2,77.0,0,Bonjour
 11328,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Yakunina Christina,3,70.0,0,Bonjour
+11329,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Farníková Kateřina,1,78.0,0,Horáková a zemědělci
+11329,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Požár Yurij,2,81.0,0,Horáková a zemědělci
+11329,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Domanská Julie,3,79.0,0,Horáková a zemědělci
+11329,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Košárek Jáchym,1,74.0,3,To je western!
+11329,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Rygálová Hana,2,73.0,3,To je western!
+11329,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Vrána Martin,3,71.0,3,To je western!
 11330,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Honců James Warren,1,76.0,1,deada$$
 11330,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Luňáček Jan,2,68.0,1,deada$$
 11330,2025-12-12 18:30:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Drdličko Dominik,3,71.0,1,deada$$
@@ -2675,6 +3142,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11339,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Šnejdar Martin,1,75.0,0,Luďkovi rytíři
 11339,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Vokurka Václav,2,76.0,0,Luďkovi rytíři
 11339,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Špinka Vít,3,74.0,0,Luďkovi rytíři
+11340,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Churý Tomáš,1,77.0,0,Bonjour
+11340,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Wellartová Vivien Fay,2,73.0,0,Bonjour
+11340,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Juránek Prokop,3,77.0,0,Bonjour
+11340,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Vrbová Lucie,1,67.0,3,Los Debateros
+11340,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Hudeček Matylda,2,71.0,3,Los Debateros
+11340,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Lehner Naomi Eva,3,69.0,3,Los Debateros
 11341,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Waldaufová Natálie,1,72.0,1,Cihla
 11341,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Škorpilová Kateřina,2,75.0,1,Cihla
 11341,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Schmidová Jana,3,73.0,1,Cihla
@@ -2687,6 +3160,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11342,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Požár Yurij,1,79.0,2,Horáková a zemědělci
 11342,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Farníková Kateřina,2,77.0,2,Horáková a zemědělci
 11342,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Domanská Julie,3,78.0,2,Horáková a zemědělci
+11343,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Harašta Matěj,1,78.0,3,Dodáme do středy
+11343,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Olša Kryštof,2,82.0,3,Dodáme do středy
+11343,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Šneider Libor,3,81.0,3,Dodáme do středy
+11343,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Pokorný Jan,1,75.0,0,Memoriál D.H.
+11343,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Sobotková Sofie,2,69.0,0,Memoriál D.H.
+11343,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,neg,Zádrapová Amálie,3,72.0,0,Memoriál D.H.
 11344,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Houdek Jonáš,1,77.0,3,Varáci
 11344,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Marek Matěj,2,76.0,3,Varáci
 11344,2025-12-13 09:00:00,320,Druhý turnaj Debate League 2025/2026,Gene editing for human enhancement brings more harm than good,aff,Brávek Šimon,3,79.0,3,Varáci
@@ -2753,6 +3232,12 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11365,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Fryčová Lucie,1,76.0,1,Pozor kluzká podlaha!
 11365,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Luňáček Jan,2,74.0,1,Pozor kluzká podlaha!
 11365,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Drdličko Dominik,3,72.0,1,Pozor kluzká podlaha!
+11366,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,"Jemelka ""Pepa"" František",1,85.0,0,Luďkovi rytíři
+11366,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Ikifule Christian,2,76.0,0,Luďkovi rytíři
+11366,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Suchánek Jakub,3,74.0,0,Luďkovi rytíři
+11366,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Zetek Vít,1,79.0,3,"Bít, či nebýt"
+11366,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Danišová Renáta,2,84.0,3,"Bít, či nebýt"
+11366,2025-12-13 17:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Chudárek František,3,78.0,3,"Bít, či nebýt"
 11367,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Kamasová Karolína,1,76.0,3,Dodáme do středy
 11367,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Janíková Tereza,2,75.0,3,Dodáme do středy
 11367,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Jurčová Zuzana,3,74.0,3,Dodáme do středy
@@ -2801,6 +3286,18 @@ debate_id,date,tournament_id,tournament_name,motion,side,speaker_name,speaker_po
 11374,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Houdek Jonáš,1,81.0,0,Luďkovi rytíři
 11374,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Marek Matěj,2,81.0,0,Luďkovi rytíři
 11374,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Brávek Šimon,3,82.0,0,Luďkovi rytíři
+11375,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Farníková Kateřina,1,81.0,0,Horáková a zemědělci
+11375,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Požár Yurij,2,81.0,0,Horáková a zemědělci
+11375,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Domanská Julie,3,79.0,0,Horáková a zemědělci
+11375,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Harašta Matěj,1,77.0,3,Memoriál D.H.
+11375,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Olša Kryštof,2,80.0,3,Memoriál D.H.
+11375,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Šneider Libor,3,78.0,3,Memoriál D.H.
+11376,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Snášel Matěj,1,79.0,3,Pozor kluzká podlaha!
+11376,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Novák Jakub,2,80.0,3,Pozor kluzká podlaha!
+11376,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Prokeš Patrik,3,79.0,3,Pozor kluzká podlaha!
+11376,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Zgabaj Tobiáš,1,76.0,0,Máme pravdu
+11376,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Foltová Nikol,2,75.0,0,Máme pravdu
+11376,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,neg,Ježák Adam,3,70.0,0,Máme pravdu
 11377,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Fryčová Lucie,1,78.0,2,Varáci
 11377,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Luňáček Jan,2,77.0,2,Varáci
 11377,2025-12-14 09:00:00,320,Druhý turnaj Debate League 2025/2026,As Victor Frankenstein we would accept the offer from „the creature“,aff,Drdličko Dominik,3,78.0,2,Varáci

@@ -123,6 +123,7 @@ def parse_teams_string(teams_str: str) -> list | None:
             temp_str = teams_str.replace('"', "___TEMP___")
             temp_str = temp_str.replace("'", '"')
             temp_str = temp_str.replace("___TEMP___", '\\"')
+            temp_str = temp_str.replace("None", "null")
             return json.loads(temp_str)
         except json.JSONDecodeError:
             logger.warning(f"Failed to parse teams string: {teams_str[:100]}...")
@@ -148,6 +149,7 @@ def parse_judges_scoring_string(judges_str: str) -> list | None:
             temp_str = judges_str.replace('"', "___TEMP___")
             temp_str = temp_str.replace("'", '"')
             temp_str = temp_str.replace("___TEMP___", '\\"')
+            temp_str = temp_str.replace("None", "null")
             return json.loads(temp_str)
         except json.JSONDecodeError:
             logger.warning(f"Failed to parse judges string: {judges_str[:100]}...")
@@ -224,41 +226,113 @@ def parse_debate_row(row: pd.Series) -> ParsedDebate | None:
     Returns:
         ParsedDebate object or None if parsing fails
     """
+    debate_id = None
     try:
-        debate_id = int(row[InputCsvColumns.ID.value])
-        date = pd.to_datetime(row[InputCsvColumns.DATE.value])
-        tournament_id = int(row[InputCsvColumns.TOURNAMENT_ID.value])
-        tournament_name = str(row[InputCsvColumns.TOURNAMENT_NAME.value])
-        motion = str(row[InputCsvColumns.MOTION.value])
+        debate_id_raw = row[InputCsvColumns.ID.value]
+        if pd.isna(debate_id_raw):
+            logger.warning(f"Row has missing debate ID, skipping: {row.to_dict()}")
+            return None
+        debate_id = int(debate_id_raw)
 
-        teams_data = parse_teams_string(row[InputCsvColumns.TEAMS.value])
-        if teams_data is None or len(teams_data) != 2:
-            logger.warning(f"Debate {debate_id}: Invalid teams data")
+        date_raw = row[InputCsvColumns.DATE.value]
+        if pd.isna(date_raw):
+            logger.warning(f"Debate {debate_id}: Missing date field")
+            return None
+        date = pd.to_datetime(date_raw)
+
+        tournament_id_raw = row[InputCsvColumns.TOURNAMENT_ID.value]
+        if pd.isna(tournament_id_raw):
+            logger.warning(f"Debate {debate_id}: Missing tournament_id field")
+            return None
+        tournament_id = int(tournament_id_raw)
+
+        tournament_name = str(row[InputCsvColumns.TOURNAMENT_NAME.value])
+        if pd.isna(row[InputCsvColumns.TOURNAMENT_NAME.value]):
+            logger.warning(
+                f"Debate {debate_id}: Missing tournament_name, using empty string"
+            )
+            tournament_name = ""
+
+        motion = str(row[InputCsvColumns.MOTION.value])
+        if pd.isna(row[InputCsvColumns.MOTION.value]):
+            logger.warning(f"Debate {debate_id}: Missing motion, using empty string")
+            motion = ""
+
+        teams_str = row[InputCsvColumns.TEAMS.value]
+        if pd.isna(teams_str):
+            logger.warning(f"Debate {debate_id}: Missing teams field")
             return None
 
-        ballots = extract_ballots_from_judges(row[InputCsvColumns.JUDGES_SCORING.value])
+        teams_data = parse_teams_string(teams_str)
+        if teams_data is None:
+            logger.warning(f"Debate {debate_id}: Failed to parse teams JSON")
+            return None
+
+        if len(teams_data) != 2:
+            logger.warning(
+                f"Debate {debate_id}: Invalid number of teams ({len(teams_data)}), expected 2"
+            )
+            return None
+
+        judges_str = row[InputCsvColumns.JUDGES_SCORING.value]
+        if pd.isna(judges_str):
+            logger.warning(f"Debate {debate_id}: Missing judges_scoring field")
+            return None
+
+        ballots = extract_ballots_from_judges(judges_str)
         if ballots is None:
-            logger.warning(f"Debate {debate_id}: Invalid judges scoring")
+            logger.warning(f"Debate {debate_id}: Failed to extract ballots from judges")
             return None
 
         aff_team = None
         neg_team = None
 
-        for team_data in teams_data:
+        for team_idx, team_data in enumerate(teams_data):
             side_str = team_data.get(TeamDataKeys.SIDE.value, "").lower()
             if side_str not in [Side.AFF.value, Side.NEG.value]:
-                logger.warning(f"Debate {debate_id}: Invalid side '{side_str}'")
+                logger.warning(
+                    f"Debate {debate_id}: Team {team_idx} has invalid side '{side_str}'"
+                )
                 return None
 
             side = Side.AFF if side_str == Side.AFF.value else Side.NEG
             team_name = team_data.get(TeamDataKeys.TEAM_NAME.value, "")
             speakers_data = team_data.get(TeamDataKeys.SPEAKERS.value, [])
 
+            if not isinstance(speakers_data, list):
+                logger.warning(
+                    f"Debate {debate_id}: Team {team_idx} speakers field is not a list"
+                )
+                return None
+
             speakers = []
             for position, speaker_data in enumerate(speakers_data, start=1):
+                if not isinstance(speaker_data, dict):
+                    logger.warning(
+                        f"Debate {debate_id}: Team {team_idx}, speaker position {position} is not a dict"
+                    )
+                    continue
+
+                speaker_name = speaker_data.get(SpeakerDataKeys.NAME.value, "")
+                speaker_points_raw = speaker_data.get(SpeakerDataKeys.POINTS.value)
+
+                if speaker_points_raw is None:
+                    logger.warning(
+                        f"Debate {debate_id}: Team {team_idx}, speaker '{speaker_name}' (position {position}) has missing points, skipping"
+                    )
+                    continue
+
+                try:
+                    speaker_points = float(speaker_points_raw)
+                except (ValueError, TypeError) as e:
+                    logger.warning(
+                        f"Debate {debate_id}: Team {team_idx}, speaker '{speaker_name}' (position {position}) has invalid points '{speaker_points_raw}': {e}"
+                    )
+                    continue
+
                 speaker = ParsedSpeaker(
-                    name=speaker_data.get(SpeakerDataKeys.NAME.value, ""),
-                    points=float(speaker_data.get(SpeakerDataKeys.POINTS.value, 0)),
+                    name=speaker_name,
+                    points=speaker_points,
                     position=position,
                 )
                 speakers.append(speaker)
@@ -271,7 +345,7 @@ def parse_debate_row(row: pd.Series) -> ParsedDebate | None:
                 neg_team = team
 
         if aff_team is None or neg_team is None:
-            logger.warning(f"Debate {debate_id}: Missing aff or neg team")
+            logger.warning(f"Debate {debate_id}: Missing aff or neg team after parsing")
             return None
 
         return ParsedDebate(
@@ -286,8 +360,21 @@ def parse_debate_row(row: pd.Series) -> ParsedDebate | None:
             ballots_neg=ballots[Side.NEG.value],
         )
 
+    except KeyError as e:
+        if debate_id:
+            logger.error(f"Debate {debate_id}: Missing required column: {e}")
+        else:
+            logger.error(f"Row missing required column: {e}")
+        return None
     except Exception as e:
-        logger.error(f"Error parsing debate row: {e}")
+        if debate_id:
+            logger.error(
+                f"Debate {debate_id}: Unexpected error parsing debate row: {type(e).__name__}: {e}"
+            )
+        else:
+            logger.error(
+                f"Error parsing debate row (unknown ID): {type(e).__name__}: {e}"
+            )
         return None
 
 
