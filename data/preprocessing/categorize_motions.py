@@ -7,15 +7,13 @@ from pathlib import Path
 
 import pandas as pd
 
-from logger.logger import logger, setup_logging
-
-PROJECT_ROOT = Path(__file__).parent.parent.parent
-PATH_TO_INPUT_CSV = PROJECT_ROOT / "data" / "raw" / "debate_data.csv"
-PATH_TO_CATEGORIES_FILE = PROJECT_ROOT / "data" / "resources" / "category_keywords.json"
-PATH_TO_MOTIONS_LIST = PROJECT_ROOT / "data" / "processed" / "motions.txt"
-PATH_TO_CATEGORIZATION_OUTPUT = (
-    PROJECT_ROOT / "data" / "processed" / "motion_categories.csv"
+from constants import (
+    PATH_TO_CATEGORIES_FILE,
+    PATH_TO_CATEGORIZATION_OUTPUT,
+    PATH_TO_INPUT_CSV,
+    PATH_TO_MOTIONS_LIST,
 )
+from logger.logger import logger, setup_logging
 
 
 @dataclass

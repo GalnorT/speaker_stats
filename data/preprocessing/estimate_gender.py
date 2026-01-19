@@ -1,21 +1,21 @@
 import argparse
-import json
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 
 import pandas as pd
 
+from constants import (
+    PATH_TO_DEBATER_NAMES,
+    PATH_TO_FEMALE_NAMES,
+    PATH_TO_GENDER_OUTPUT,
+    PATH_TO_INPUT_CSV,
+    PATH_TO_MALE_NAMES,
+)
+from data.preprocessing.parsing_utils import parse_teams_string
 from logger.logger import logger, setup_logging
 
-PROJECT_ROOT = Path(__file__).parent.parent.parent
-PATH_TO_INPUT_CSV = PROJECT_ROOT / "data" / "raw" / "debate_data.csv"
-PATH_TO_MALE_NAMES = PROJECT_ROOT / "data" / "resources" / "male_names.txt"
-PATH_TO_FEMALE_NAMES = PROJECT_ROOT / "data" / "resources" / "female_names.txt"
-PATH_TO_DEBATER_NAMES = PROJECT_ROOT / "data" / "processed" / "debater_names.txt"
-PATH_TO_GENDER_OUTPUT = PROJECT_ROOT / "data" / "processed" / "debater_genders.csv"
-
-TEMPORARY_REPLACEMENT_STRING = "___TEMP___"
+CZECH_FEMALE_SUFFIXES = ["ová", "á"]
 
 
 class Gender(Enum):
@@ -42,42 +42,6 @@ class GenderGuess:
     debater_name: DebaterName
     gender: Gender
     method_used: GenderGuessMethod
-
-
-CZECH_FEMALE_SUFFIXES = ["ová", "á"]
-
-
-def parse_teams_string(teams_str: str) -> list | None:
-    """Parse teams string from CSV into Python list.
-
-    Required to handle name string with nicknames containing quotes.
-    E.g. {'name': 'Novák "Speedy" Jakub'}
-
-    Args:
-        teams_str: String representation of teams data
-
-    Returns:
-        Parsed list or None if parsing fails
-    """
-    try:
-        teams_str = teams_str.replace('"', TEMPORARY_REPLACEMENT_STRING)
-        teams_str = teams_str.replace("'", '"')
-        teams_str = teams_str.replace("None", "null")
-        teams = json.loads(teams_str)
-
-        for team in teams:
-            for speaker in team["speakers"]:
-                if speaker["name"]:
-                    speaker["name"] = speaker["name"].replace(
-                        TEMPORARY_REPLACEMENT_STRING, '"'
-                    )
-        return teams
-    except json.JSONDecodeError:
-        return None
-    except Exception as e:
-        logger.error(f"Unexpected error while parsing teams string: {e}")
-        logger.debug(f"Teams string: {teams_str}")
-        raise e
 
 
 def extract_debater_names(csv_path: Path) -> set[str]:

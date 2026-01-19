@@ -7,11 +7,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from constants import PATH_TO_INPUT_CSV, PATH_TO_TIDY_OUTPUT
 from logger.logger import logger, setup_logging
-
-PROJECT_ROOT = Path(__file__).parent.parent.parent
-PATH_TO_INPUT_CSV = PROJECT_ROOT / "data" / "raw" / "debate_data.csv"
-PATH_TO_OUTPUT_CSV = PROJECT_ROOT / "data" / "processed" / "tidy_debate_data.csv"
 
 
 class Side(Enum):
@@ -575,8 +572,8 @@ def main():
     parser.add_argument(
         "--output",
         type=str,
-        default=str(PATH_TO_OUTPUT_CSV),
-        help=f"Path to output tidy CSV (default: {PATH_TO_OUTPUT_CSV})",
+        default=str(PATH_TO_TIDY_OUTPUT),
+        help=f"Path to output tidy CSV (default: {PATH_TO_TIDY_OUTPUT})",
     )
 
     args = parser.parse_args()
