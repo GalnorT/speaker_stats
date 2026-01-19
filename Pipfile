@@ -4,11 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "==2.3.3"
-scrapy = "==2.13.4"
+pandas = "*"
+scrapy = "*"
+ipykernel = "*"
+scikit-learn = "*"
+statsmodels = "*"
 
 [dev-packages]
-pytest = "==9.0.2"
+pytest = "*"
 
 [requires]
 python_version = "3.11"
