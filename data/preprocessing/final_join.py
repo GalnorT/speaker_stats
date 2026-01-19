@@ -33,6 +33,7 @@ def main():
 
     return final_data
 
+
 def save_final_data(final_data: pd.DataFrame):
     final_data.to_csv(PATH_TO_FINAL_OUTPUT, index=False)
     print(f"\nSaved to: {PATH_TO_FINAL_OUTPUT}")
