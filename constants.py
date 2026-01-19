@@ -2,7 +2,7 @@
 from pathlib import Path
 
 # Project structure
-PROJECT_ROOT = Path(__file__).parent.parent.parent
+PROJECT_ROOT = Path(__file__).parent
 
 # Directories
 RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
@@ -23,3 +23,4 @@ PATH_TO_GENDER_OUTPUT = PROCESSED_DATA_DIR / "debater_genders.csv"
 PATH_TO_MOTIONS_LIST = PROCESSED_DATA_DIR / "motions.txt"
 PATH_TO_CATEGORIZATION_OUTPUT = PROCESSED_DATA_DIR / "motion_categories.csv"
 PATH_TO_TIDY_OUTPUT = PROCESSED_DATA_DIR / "tidy_debate_data.csv"
+PATH_TO_FINAL_OUTPUT = PROCESSED_DATA_DIR / "final_joined_data.csv"
