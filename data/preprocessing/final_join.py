@@ -6,6 +6,7 @@ import pandas as pd
 
 from constants import (
     PATH_TO_CATEGORIZATION_OUTPUT,
+    PATH_TO_DEBATER_AGES_FILE,
     PATH_TO_FINAL_OUTPUT,
     PATH_TO_GENDER_OUTPUT,
     PATH_TO_TIDY_OUTPUT,
@@ -17,6 +18,7 @@ def main():
     tidy_data = pd.read_csv(PATH_TO_TIDY_OUTPUT)
     debater_genders = pd.read_csv(PATH_TO_GENDER_OUTPUT)
     motion_categories = pd.read_csv(PATH_TO_CATEGORIZATION_OUTPUT)
+    debater_first_debate = pd.read_csv(PATH_TO_DEBATER_AGES_FILE)
 
     print("Joining debater genders...")
     merged_data = tidy_data.merge(
@@ -27,6 +29,15 @@ def main():
 
     print("Joining motion categories...")
     final_data = merged_data.merge(motion_categories, on="motion", how="left")
+
+    print("Joining debaters' time of first debate...")
+    final_data = final_data.merge(
+        debater_first_debate, left_on="speaker_name", right_on="name", how="left"
+    )
+    final_data = final_data.drop(columns=["name"])
+    final_data = final_data.rename(
+        columns={"date_x": "debate_date", "date_y": "speaker_first_debate_date"}
+    )
 
     print(f"Final data shape: {final_data.shape}")
     print(f"Columns: {final_data.columns.tolist()}")

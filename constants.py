@@ -1,4 +1,5 @@
 """Path constants for data preprocessing scripts."""
+
 from pathlib import Path
 
 # Project structure
@@ -11,6 +12,7 @@ RESOURCES_DIR = PROJECT_ROOT / "data" / "resources"
 
 # Input files
 PATH_TO_INPUT_CSV = RAW_DATA_DIR / "debate_data.csv"
+PATH_TO_DEBATER_AGES_FILE = RAW_DATA_DIR / "debater_ages.csv"
 
 # Resource files
 PATH_TO_MALE_NAMES = RESOURCES_DIR / "male_names.txt"
