@@ -22,7 +22,7 @@ let debatesTable: DebatesTable | null = null;
 
 async function loadData(): Promise<void> {
   try {
-    const response = await fetch('./example_stats.json');
+    const response = await fetch('./speaker_stats_2025.json');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

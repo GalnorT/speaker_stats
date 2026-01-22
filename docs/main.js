@@ -17,7 +17,7 @@ let positionStats = null;
 let debatesTable = null;
 async function loadData() {
     try {
-        const response = await fetch('./example_stats.json');
+        const response = await fetch('./speaker_stats_2025.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
