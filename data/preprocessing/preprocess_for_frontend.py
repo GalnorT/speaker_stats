@@ -17,6 +17,7 @@ from logger.logger import logger, setup_logging
 class InputColumns(Enum):
     """Column names in the input CSV file."""
 
+    DEBATE_ID = "debate_id"
     SPEAKER_NAME = "speaker_name"
     SIDE = "side"
     BALLOTS_GAINED = "ballots_gained"
@@ -24,6 +25,7 @@ class InputColumns(Enum):
     SPEAKER_POINTS = "speaker_points"
     CATEGORY_1 = "category_1"
     DEBATE_DATE = "debate_date"
+    OPPONENT_TEAM_NAME = "opponent_team_name"
 
 
 class OutputFields(Enum):
@@ -44,7 +46,14 @@ class OutputFields(Enum):
     CATEGORY = "category"
     WIN_RATE = "win_rate"
     DEBATES_COUNT = "debates"
+
+    # Debate detail fields
     DATE = "date"
+    BALLOTS_GAINED = "ballots_gained"
+    OPPONENT = "opponent"
+    WAS_AFF = "was_aff"
+    LINK = "link"
+    SPEAKER_POINTS = "speaker_points"
 
 
 @dataclass
@@ -65,8 +74,10 @@ class SpeakerStats:
     neg_debates: int = 0
     neg_wins: int = 0
     position_points: dict = field(default_factory=lambda: defaultdict(list))
-    #pylint: disable=unnecessary-lambda
-    category_stats: dict = field(default_factory=lambda: defaultdict(lambda: CategoryStats()))
+    # pylint: disable=unnecessary-lambda
+    category_stats: dict = field(
+        default_factory=lambda: defaultdict(lambda: CategoryStats())
+    )
     debates: list = field(default_factory=list)
 
 
@@ -111,6 +122,18 @@ def calculate_win_rate(wins: int, total: int) -> float:
     return round(wins / total, 2)
 
 
+def construct_debate_link(debate_id: int) -> str:
+    """Construct link to debate page.
+
+    Args:
+        debate_id: The debate ID
+
+    Returns:
+        URL to the debate page
+    """
+    return f"https://statistiky.debatovani.cz/?page=debata&debata_id={debate_id}"
+
+
 def process_speaker_data(df: pd.DataFrame) -> dict[str, SpeakerStats]:
     """Process dataframe and aggregate statistics per speaker.
 
@@ -136,6 +159,8 @@ def process_speaker_data(df: pd.DataFrame) -> dict[str, SpeakerStats]:
         points = row[InputColumns.SPEAKER_POINTS.value]
         category = row[InputColumns.CATEGORY_1.value]
         debate_date = row[InputColumns.DEBATE_DATE.value]
+        debate_id = row[InputColumns.DEBATE_ID.value]
+        opponent = row[InputColumns.OPPONENT_TEAM_NAME.value]
 
         speaker.total_debates += 1
 
@@ -160,10 +185,17 @@ def process_speaker_data(df: pd.DataFrame) -> dict[str, SpeakerStats]:
             if won:
                 speaker.category_stats[category].wins += 1
 
-        if pd.notna(debate_date):
-            speaker.debates.append(
-                {OutputFields.DATE.value: str(debate_date).split()[0]}
-            )
+        debate_detail = {
+            OutputFields.DATE.value: str(debate_date).split()[0],
+            OutputFields.BALLOTS_GAINED.value: int(ballots),
+            OutputFields.OPPONENT.value: str(opponent) if pd.notna(opponent) else "",
+            OutputFields.WAS_AFF.value: side == Side.AFF.value,
+            OutputFields.LINK.value: construct_debate_link(int(debate_id)),
+            OutputFields.SPEAKER_POINTS.value: (
+                float(points) if pd.notna(points) else 0.0
+            ),
+        }
+        speaker.debates.append(debate_detail)
 
     return speakers
 
