@@ -1,7 +1,11 @@
 """Path constants for data preprocessing scripts."""
 
 from pathlib import Path
+from enum import Enum
 
+class Side(Enum):
+    AFF = "aff"
+    NEG = "neg"
 # Project structure
 PROJECT_ROOT = Path(__file__).parent
 
@@ -26,3 +30,4 @@ PATH_TO_MOTIONS_LIST = PROCESSED_DATA_DIR / "motions.txt"
 PATH_TO_CATEGORIZATION_OUTPUT = PROCESSED_DATA_DIR / "motion_categories.csv"
 PATH_TO_TIDY_OUTPUT = PROCESSED_DATA_DIR / "tidy_debate_data.csv"
 PATH_TO_FINAL_OUTPUT = PROCESSED_DATA_DIR / "final_joined_data.csv"
+PATH_TO_SPEAKER_STATS_OUTPUT = PROCESSED_DATA_DIR / "speaker_stats.json"

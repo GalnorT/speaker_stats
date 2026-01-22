@@ -7,13 +7,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from constants import PATH_TO_INPUT_CSV, PATH_TO_TIDY_OUTPUT
+from constants import PATH_TO_INPUT_CSV, PATH_TO_TIDY_OUTPUT, Side
 from logger.logger import logger, setup_logging
-
-
-class Side(Enum):
-    AFF = "aff"
-    NEG = "neg"
 
 
 class InputCsvColumns(Enum):
