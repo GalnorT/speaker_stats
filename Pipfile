@@ -9,6 +9,7 @@ scrapy = "*"
 ipykernel = "*"
 scikit-learn = "*"
 statsmodels = "*"
+linearmodels = "*"
 
 [dev-packages]
 pytest = "*"
