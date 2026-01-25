@@ -70,6 +70,8 @@ More info is available at https://debatovani.cz/.
 
 4. Warm-up Effect: In multi-round tournaments, do debaters show measurable improvement as rounds progress, suggesting a "warm-up" period?
 
+We have tried our best to answer these questions in the data analysis [Jupyter notebook](analysis/models.ipynb).
+
 ---
 
 Thank you again for your time and for teaching such a wonderful course! We hope you find our project interesting and well-structured.
