@@ -51,6 +51,25 @@ If you encounter any issues while running the code:
 
 2. Check the logs - If tests pass but something still isn't working, the `.logger/logs/log.jsonl` file may contain useful debugging information
 
+## Data context
+
+For ease of reference, here is a brief description of the problem we tried to analyze and the context the problem takes place (slightly edited from the original project proposal):
+
+### What is Competitive Debate?
+
+In Czechia, there is an NGO that organizes debate tournaments for high-schoolers. At these tournaments, teams of debaters face against each other. They are given a motion (e.g. "Extremist opinions should be banned") and a side to argue for ("Affirmative" - for, or "Negative" - against). The debaters then alternate giving speeches, and their arguments are evaluated by an independent adjudicator. Each debater is also given a speaker score for that particular debate.
+More info is available at https://debatovani.cz/.
+
+### Research Questions
+
+1. Age and Gender Effects: Do older debaters have a competitive advantage over younger participants? Is there a measurable gender performance gap in speaker scores?
+
+2. Topic Balance: Which debate categories (economics, culture, politics) tend to produce balanced debates versus one-sided outcomes? Does topic type correlate with score distributions?
+
+3. School Environment Impact: Does attending a school with high-performing debaters improve individual performance through peer learning, or does it create a demotivating competitive environment?
+
+4. Warm-up Effect: In multi-round tournaments, do debaters show measurable improvement as rounds progress, suggesting a "warm-up" period?
+
 ---
 
 Thank you again for your time and for teaching such a wonderful course! We hope you find our project interesting and well-structured.
