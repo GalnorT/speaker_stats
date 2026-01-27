@@ -1,4 +1,4 @@
-library(tidyr)
+# library(tidyr)
 library(rvest)
 library(dplyr)
 library(purrr)
