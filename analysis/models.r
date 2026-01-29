@@ -3,6 +3,7 @@ library(readr)
 library(lubridate)
 library(plm)
 library(stringr)
+library(lmtest)
 
 base_dir <- "c:/Users/QX163MQ/Downloads/non-work/school/data processing in python/project/speaker_stats"
 scores_path <- file.path(base_dir, "scraping/debate_natural_ability_scraping/speaker_scores.csv")
@@ -282,6 +283,23 @@ mundlak_no_mean_lag_strict <- plm(
 
 print(summary(mundlak_no_mean_lag))
 print(summary(mundlak_no_mean_lag_strict))
+
+mundlak_pooled <- plm(
+    mundlak_formula,
+    data = df_mundlak,
+    model = "pooling",
+    index = c("speaker_id", "time_index")
+)
+
+mundlak_pooled_strict <- plm(
+    mundlak_formula,
+    data = df_mundlak_strict,
+    model = "pooling",
+    index = c("speaker_id", "time_index")
+)
+
+print(coeftest(mundlak_pooled, vcov = vcovHC(mundlak_pooled, type = "HC1", cluster = "group")))
+print(coeftest(mundlak_pooled_strict, vcov = vcovHC(mundlak_pooled_strict, type = "HC1", cluster = "group")))
 
 
 
