@@ -156,29 +156,46 @@ df_model_proper_time_strict <- df_model_strict %>%
 
 df_mundlak <- df_model_proper_time %>%
     group_by(speaker_id) %>%
-    filter(n() >= 2) %>%
+    filter(n() >= 10) %>%
     mutate(
         mean_lag_avg_teammate_score = mean(lag_avg_teammate_score, na.rm = TRUE),
         mean_tournament_round = mean(tournament_round, na.rm = TRUE),
         lag_avg_teammate_score_c = lag_avg_teammate_score - mean_lag_avg_teammate_score,
         tournament_round_c = tournament_round - mean_tournament_round
     ) %>%
-    ungroup()
+    ungroup() %>%
+    mutate(
+        avg_first10_score_z = as.numeric(scale(avg_first10_score)),
+        lag_avg_teammate_score_c_z = as.numeric(scale(lag_avg_teammate_score_c)),
+        tournament_round_c_z = as.numeric(scale(tournament_round_c)),
+        mean_lag_avg_teammate_score_z = as.numeric(scale(mean_lag_avg_teammate_score)),
+        mean_tournament_round_z = as.numeric(scale(mean_tournament_round))
+    )
 
 df_mundlak_strict <- df_model_proper_time_strict %>%
     group_by(speaker_id) %>%
-    filter(n() >= 2) %>%
+    filter(n() >= 10) %>%
     mutate(
         mean_lag_avg_teammate_score = mean(lag_avg_teammate_score, na.rm = TRUE),
         mean_tournament_round = mean(tournament_round, na.rm = TRUE),
         lag_avg_teammate_score_c = lag_avg_teammate_score - mean_lag_avg_teammate_score,
         tournament_round_c = tournament_round - mean_tournament_round
     ) %>%
-    ungroup()
+    ungroup() %>%
+    mutate(
+        avg_first10_score_z = as.numeric(scale(avg_first10_score)),
+        lag_avg_teammate_score_c_z = as.numeric(scale(lag_avg_teammate_score_c)),
+        tournament_round_c_z = as.numeric(scale(tournament_round_c)),
+        mean_lag_avg_teammate_score_z = as.numeric(scale(mean_lag_avg_teammate_score)),
+        mean_tournament_round_z = as.numeric(scale(mean_tournament_round))
+    )
 
-mundlak_formula <- speaker_points ~ avg_first10_score + is_male +
-    lag_avg_teammate_score_c + tournament_round_c +
-    mean_lag_avg_teammate_score + mean_tournament_round
+colinearity_test <- lm(speaker_points ~ lag_avg_teammate_score_c + mean_lag_avg_teammate_score + tournament_round_c + mean_tournament_round, data = df_mundlak)
+summary(colinearity_test)
+
+mundlak_formula <- speaker_points ~ avg_first10_score_z + is_male +
+    lag_avg_teammate_score_c_z + tournament_round_c_z +
+    mean_lag_avg_teammate_score_z + mean_tournament_round_z
 
 mundlak_mod <- plm(
     mundlak_formula,
@@ -196,3 +213,95 @@ mundlak_mod_strict <- plm(
 
 print(summary(mundlak_mod))
 print(summary(mundlak_mod_strict))
+
+# DEBUG
+df_mundlak %>%
+    count(speaker_id, name = "n_obs") %>%
+    arrange(n_obs)
+
+df_mundlak %>%
+    group_by(speaker_id) %>%
+    summarise(
+        n_obs = n(),
+        var_lag = var(lag_avg_teammate_score, na.rm = TRUE),
+        var_round = var(tournament_round, na.rm = TRUE)
+    ) %>%
+    filter(n_obs < 3 | is.na(var_lag) | var_lag == 0 | is.na(var_round) | var_round == 0)
+
+df_mundlak %>%
+    group_by(speaker_id) %>%
+    summarise(
+        const_lag = n_distinct(lag_avg_teammate_score) == 1,
+        const_round = n_distinct(tournament_round) == 1
+    ) %>%
+    filter(const_lag | const_round)
+
+
+# mundlak with dropped mean terms
+
+## mundlak with dropped mean tourney round
+mundlak_formula_no_mean_round <- speaker_points ~ avg_first10_score_z + is_male +
+    lag_avg_teammate_score_c_z + tournament_round_c_z +
+    mean_lag_avg_teammate_score_z
+
+mundlak_no_mean_round <- plm(
+    mundlak_formula_no_mean_round,
+    data = df_mundlak,
+    model = "random",
+    index = c("speaker_id", "time_index")
+)
+
+mundlak_no_mean_round_strict <- plm(
+    mundlak_formula_no_mean_round,
+    data = df_mundlak_strict,
+    model = "random",
+    index = c("speaker_id", "time_index")
+)
+
+print(summary(mundlak_no_mean_round))
+print(summary(mundlak_no_mean_round_strict))
+
+## mundlak with dropped mean lag avg score 
+mundlak_formula_no_mean_lag <- speaker_points ~ avg_first10_score_z + is_male +
+    lag_avg_teammate_score_c_z + tournament_round_c_z +
+    mean_tournament_round_z
+
+mundlak_no_mean_lag <- plm(
+    mundlak_formula_no_mean_lag,
+    data = df_mundlak,
+    model = "random",
+    index = c("speaker_id", "time_index")
+)
+
+mundlak_no_mean_lag_strict <- plm(
+    mundlak_formula_no_mean_lag,
+    data = df_mundlak_strict,
+    model = "random",
+    index = c("speaker_id", "time_index")
+)
+
+print(summary(mundlak_no_mean_lag))
+print(summary(mundlak_no_mean_lag_strict))
+
+
+
+#Check rank deficiency:
+m <- model.matrix(mundlak_formula, df_mundlak)
+qr(m)$rank; ncol(m)
+
+kappa(model.matrix(mundlak_formula, df_mundlak))
+
+#Find exact linear dependencies:
+alias(lm(mundlak_formula, data = df_mundlak))
+
+#Check duplicate (speaker_id, time_index) rows:
+df_mundlak %>% count(speaker_id, time_index) %>% filter(n > 1)
+
+# duplicate rows?s
+
+ercomp(mundlak_formula, data = df_mundlak, model = "random", effect = "individual", random.method = "swar", index = c("speaker_id", "time_index"))
+
+pdata.frame(df_mundlak, index = c("speaker_id", "time_index")) %>%
+index() %>%
+table() %>%
+{ .[. > 1] }
