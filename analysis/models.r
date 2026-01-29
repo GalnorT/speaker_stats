@@ -301,6 +301,32 @@ mundlak_pooled_strict <- plm(
 print(coeftest(mundlak_pooled, vcov = vcovHC(mundlak_pooled, type = "HC1", cluster = "group")))
 print(coeftest(mundlak_pooled_strict, vcov = vcovHC(mundlak_pooled_strict, type = "HC1", cluster = "group")))
 
+gmm_formula <- speaker_points ~ lag(speaker_points, 1) + avg_first10_score_z + is_male +
+    lag_avg_teammate_score_c_z + tournament_round_c_z +
+    mean_lag_avg_teammate_score_z + mean_tournament_round_z |
+    lag(speaker_points, 2:5)
+
+gmm_mod <- pgmm(
+    gmm_formula,
+    data = df_mundlak,
+    effect = "individual",
+    model = "twosteps",
+    transformation = "d",
+    index = c("speaker_id", "time_index")
+)
+
+gmm_mod_strict <- pgmm(
+    gmm_formula,
+    data = df_mundlak_strict,
+    effect = "individual",
+    model = "twosteps",
+    transformation = "d",
+    index = c("speaker_id", "time_index")
+)
+
+print(summary(gmm_mod))
+print(summary(gmm_mod_strict))
+
 
 
 #Check rank deficiency:
