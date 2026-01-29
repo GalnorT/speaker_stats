@@ -29,6 +29,12 @@ avg_first10 <- scores %>%
     slice_head(n = 10) %>%
     summarise(avg_first10_score = mean(speaker_score_num), .groups = "drop")
 
+avg_first10_strict <- scores %>%
+    group_by(name_clean) %>%
+    filter(n() >= 10) %>%
+    slice_head(n = 10) %>%
+    summarise(avg_first10_score = mean(speaker_score_num), .groups = "drop")
+
 # Load final data
 df <- read_csv(final_path, show_col_types = FALSE) %>%
     mutate(
@@ -77,6 +83,20 @@ df_model <- df %>%
     mutate(speaker_id = as.integer(as.factor(speaker_name_clean))) %>%
     arrange(speaker_id, debate_date)
 
+df_model_strict <- df %>%
+    select(-avg_first10_score) %>%
+    inner_join(avg_first10_strict, by = c("speaker_name_clean" = "name_clean")) %>%
+    filter(
+        !is.na(speaker_points),
+        !is.na(avg_first10_score),
+        !is.na(avg_teammate_score),
+        !is.na(tournament_round),
+        !is.na(motion_balance),
+        !is.na(motion_balance_x_aff)
+    ) %>%
+    mutate(speaker_id = as.integer(as.factor(speaker_name_clean))) %>%
+    arrange(speaker_id, debate_date)
+
 # Pooled OLS
 pool_formula <- speaker_points ~ avg_first10_score + is_male + avg_teammate_score +
     tournament_round
@@ -95,11 +115,27 @@ lm_test <- plmtest(pool_mod, type = "bp")
 # Hausman test: RE vs FE
 hausman_test <- phtest(fe_mod, re_mod)
 
+pool_mod_strict <- plm(pool_formula, data = df_model_strict, model = "pooling", index = c("speaker_id", "debate_date"))
+
+re_mod_strict <- plm(pool_formula, data = df_model_strict, model = "random", index = c("speaker_id", "debate_date"))
+
+fe_mod_strict <- plm(pool_formula, data = df_model_strict, model = "within", index = c("speaker_id", "debate_date"))
+
+lm_test_strict <- plmtest(pool_mod_strict, type = "bp")
+
+hausman_test_strict <- phtest(fe_mod_strict, re_mod_strict)
+
 print(summary(pool_mod))
 print(summary(re_mod))
 print(summary(fe_mod))
 print(lm_test)
 print(hausman_test)
+
+print(summary(pool_mod_strict))
+print(summary(re_mod_strict))
+print(summary(fe_mod_strict))
+print(lm_test_strict)
+print(hausman_test_strict)
 
 
 df_model_proper_time <- df_model %>%
